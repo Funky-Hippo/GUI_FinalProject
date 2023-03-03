@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kyle Gillette\\source\\repos\\GUI_FinalProject\\Gui_FinalProject\\Gui_FinalProject\\Gui_FinalProject.csproj": {}
+    "C:\\Users\\Kyle Gillette\\Source\\Repos\\GUI_FinalProject\\Gui_FinalProject\\Gui_FinalProject\\Gui_FinalProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kyle Gillette\\source\\repos\\GUI_FinalProject\\Gui_FinalProject\\Gui_FinalProject\\Gui_FinalProject.csproj": {
+    "C:\\Users\\Kyle Gillette\\Source\\Repos\\GUI_FinalProject\\Gui_FinalProject\\Gui_FinalProject\\Gui_FinalProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kyle Gillette\\source\\repos\\GUI_FinalProject\\Gui_FinalProject\\Gui_FinalProject\\Gui_FinalProject.csproj",
+        "projectUniqueName": "C:\\Users\\Kyle Gillette\\Source\\Repos\\GUI_FinalProject\\Gui_FinalProject\\Gui_FinalProject\\Gui_FinalProject.csproj",
         "projectName": "Gui_FinalProject",
-        "projectPath": "C:\\Users\\Kyle Gillette\\source\\repos\\GUI_FinalProject\\Gui_FinalProject\\Gui_FinalProject\\Gui_FinalProject.csproj",
+        "projectPath": "C:\\Users\\Kyle Gillette\\Source\\Repos\\GUI_FinalProject\\Gui_FinalProject\\Gui_FinalProject\\Gui_FinalProject.csproj",
         "packagesPath": "C:\\Users\\Kyle Gillette\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kyle Gillette\\source\\repos\\GUI_FinalProject\\Gui_FinalProject\\Gui_FinalProject\\obj\\",
+        "outputPath": "C:\\Users\\Kyle Gillette\\Source\\Repos\\GUI_FinalProject\\Gui_FinalProject\\Gui_FinalProject\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

@@ -6,20 +6,59 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="Gray">
 
     <Canvas>
 
-        <CommandBar Canvas.Top="1040">
+        <CommandBar  HorizontalAlignment="Left" VerticalAlignment="Center">
 
-            <AppBarButton>
-                
+            <AppBarButton Content="Kid Button">
+
+            </AppBarButton>
+
+            <AppBarButton Content="Adult Button">
+
+            </AppBarButton>
+
+            <AppBarButton Content="Settings">
+
+            </AppBarButton>
+
+            <AppBarButton Content="Project Information">
+
             </AppBarButton>
 
         </CommandBar>
-        
-        
+
+        <TextBlock Canvas.Left="675" Canvas.Top="140" Text="Library" FontSize="50"/>
+
+        <ScrollViewer HorizontalScrollBarVisibility="Visible" Canvas.Left="250" Canvas.Top="250" Height="500" Width="1000">
+
+            <StackPanel Orientation="Horizontal">
+
+                <Button Content="Book 1" Width="400" Height="500" Margin="0,0,10,0">
+
+                </Button>
+
+                <Button  Content="Book 2" Width="400" Height="500" Margin="0,0,10,0">
+
+                </Button>
+
+                <Button  Content="Book 3" Width="400" Height="500" Margin="0,0,10,0">
+
+                </Button>
+
+                <Button  Content="Book 4" Width="400" Height="500" Margin="0,0,10,0">
+
+                </Button>
+
+            </StackPanel>
+
+
+        </ScrollViewer>
+
+
     </Canvas>
-    
-    
+
+
 </Page>

@@ -12,7 +12,11 @@
 
         <CommandBar  HorizontalAlignment="Left" VerticalAlignment="Center">
 
-            <AppBarButton Content="Kid Button">
+            <AppBarButton>
+                <AppBarButton.Background>
+                    <ImageBrush ImageSource="KidIcon.jpg"/>
+
+                </AppBarButton.Background>
 
             </AppBarButton>
 
@@ -32,12 +36,11 @@
 
         <TextBlock Canvas.Left="675" Canvas.Top="140" Text="Library" FontSize="50"/>
 
-        <ScrollViewer HorizontalScrollBarVisibility="Visible" Canvas.Left="250" Canvas.Top="250" Height="500" Width="1000">
-
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" Canvas.Left="250" Canvas.Top="250" Height="500" Width="1000">
             <StackPanel Orientation="Horizontal">
 
-                <Button Content="Book 1" Width="400" Height="500" Margin="0,0,10,0">
-
+                <Button Width="400" Height="500" Margin="0,0,10,0">
+                    <Image />
                 </Button>
 
                 <Button  Content="Book 2" Width="400" Height="500" Margin="0,0,10,0">
@@ -48,11 +51,8 @@
 
                 </Button>
 
-                <Button  Content="Book 4" Width="400" Height="500" Margin="0,0,10,0">
-
-                </Button>
-
             </StackPanel>
+
 
 
         </ScrollViewer>

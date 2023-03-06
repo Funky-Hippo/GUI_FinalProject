@@ -12,14 +12,6 @@
 
         <CommandBar  HorizontalAlignment="Left" VerticalAlignment="Center">
 
-            <AppBarButton>
-
-            </AppBarButton>
-
-            <AppBarButton Content="Adult Button">
-
-            </AppBarButton>
-
             <AppBarButton Content="Settings">
 
             </AppBarButton>
@@ -32,18 +24,14 @@
 
         <TextBlock Canvas.Left="675" Canvas.Top="140" Text="Library" FontSize="50"/>
 
-        <ScrollViewer HorizontalScrollBarVisibility="Auto" Canvas.Left="250" Canvas.Top="250" Height="500" Width="1000">
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" Canvas.Left="250" Canvas.Top="250" Height="500" Width="800">
             <StackPanel Orientation="Horizontal">
 
-                <Button Width="400" Height="500" Margin="0,0,10,0">
-                    <Image />
+                <Button  Content="Book 1" Width="400" Height="500" Margin="0,0,10,0">
+
                 </Button>
 
                 <Button  Content="Book 2" Width="400" Height="500" Margin="0,0,10,0">
-
-                </Button>
-
-                <Button  Content="Book 3" Width="400" Height="500" Margin="0,0,10,0">
 
                 </Button>
 

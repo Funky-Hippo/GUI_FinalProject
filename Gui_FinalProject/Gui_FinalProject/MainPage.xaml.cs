@@ -26,5 +26,11 @@ namespace Gui_FinalProject
         {
             this.InitializeComponent();
         }
+
+        private void ThreeLittlePigs_ButtonClick(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(KidBook)); 
+        }
+
     }
 }

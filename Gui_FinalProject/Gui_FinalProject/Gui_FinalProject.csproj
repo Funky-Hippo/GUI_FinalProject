@@ -119,8 +119,8 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ThreeLittlePigsBook.xaml.cs">
-      <DependentUpon>ThreeLittlePigsBook.xaml</DependentUpon>
+    <Compile Include="KidBook.xaml.cs">
+      <DependentUpon>KidBook.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -150,7 +150,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="ThreeLittlePigsBook.xaml">
+    <Page Include="KidBook.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

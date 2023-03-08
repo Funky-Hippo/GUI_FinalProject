@@ -43,8 +43,8 @@ C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalP
 C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637425067200000000.json
-C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\ThreeLittlePigsBook.xbf
-C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\obj\x86\Debug\ThreeLittlePigsBook.g.i.cs
-C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\obj\x86\Debug\ThreeLittlePigsBook.g.cs
-C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\obj\x86\Debug\ThreeLittlePigsBook.xaml
-C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\obj\x86\Debug\ThreeLittlePigsBook.xbf
+C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\KidBook.xbf
+C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\obj\x86\Debug\KidBook.g.i.cs
+C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\obj\x86\Debug\KidBook.g.cs
+C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\obj\x86\Debug\KidBook.xaml
+C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\obj\x86\Debug\KidBook.xbf

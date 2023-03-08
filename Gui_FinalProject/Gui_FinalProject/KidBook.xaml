@@ -10,7 +10,8 @@
 
     <Canvas>
 
-        <FlipView Width="1400" Height="950" Canvas.Top="-80">
+        <FlipView Width="1400" Height="950" Canvas.Top="-80" SelectionChanged="FlipView_SelectionChanged">
+            <FlipView.Items>
             <Image Source="Assets/firstpage.jpg"></Image>
             <Image Source="Assets/secondpage.jpg"></Image>
             <Image Source="Assets/thirdpage.jpg"></Image>
@@ -21,6 +22,7 @@
             <Image Source="Assets/eigthpage.jpg"></Image>
             <Image Source="Assets/ninthpage.jpg"></Image>
             <Image Source="Assets/tenthpage.jpg"></Image>
+            </FlipView.Items>
         </FlipView>
 
     </Canvas>

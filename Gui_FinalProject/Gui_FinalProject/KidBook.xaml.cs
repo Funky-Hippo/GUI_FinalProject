@@ -44,7 +44,21 @@ namespace Gui_FinalProject
             }
         }
 
+        private void FlipView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var flipview = ((FlipView)sender);
+           //USE SELECTED INDEX TO FIGURE OUT WHAT PAGE YOU'RE ON
+
+            switch (flipview.SelectedIndex)
+            {
+                case 0:
 
 
+                    break;
+            }
+
+
+
+        }
     }
 }

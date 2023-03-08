@@ -45,8 +45,8 @@
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="480"/>
                         </Grid.ColumnDefinitions>
-                        
-                        
+
+
                         <Image Source="Assets/ThreeLittlePigs.jpg" Stretch="Fill"/>
                     </Grid>
 
@@ -72,8 +72,6 @@
 
 
         </ScrollViewer>
-
-
     </Canvas>
 
 

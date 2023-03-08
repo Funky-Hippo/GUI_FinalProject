@@ -116,6 +116,9 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="AdultBook.xaml.cs">
+      <DependentUpon>AdultBook.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
@@ -135,16 +138,25 @@
   <ItemGroup>
     <Content Include="Assets\DMVManual.jpg" />
     <Content Include="Assets\eigthpage.jpg" />
+    <Content Include="Assets\eigthpage_adultbook.jpg" />
     <Content Include="Assets\fifthpage.jpg" />
+    <Content Include="Assets\fifthpage_adultbook.jpg" />
     <Content Include="Assets\firstpage.jpg" />
+    <Content Include="Assets\firstpage_adultbook - Copy.jpg" />
     <Content Include="Assets\fourthpage.jpg" />
+    <Content Include="Assets\fourthpage_adultbook.jpg" />
     <Content Include="Assets\KidIcon.jpg" />
     <Content Include="Assets\ninthpage.jpg" />
+    <Content Include="Assets\ninthpage_adultbook.jpg" />
     <Content Include="Assets\secondpage.jpg" />
+    <Content Include="Assets\secondpage_adultbook.jpg" />
     <Content Include="Assets\seventhpage.jpg" />
+    <Content Include="Assets\seventhpage_adultbook.jpg" />
     <Content Include="Assets\sixthpage.jpg" />
     <Content Include="Assets\tenthpage.jpg" />
+    <Content Include="Assets\tenthpage_adultbook.jpg" />
     <Content Include="Assets\thirdpage.jpg" />
+    <Content Include="Assets\thirdpage_adultbook.jpg" />
     <Content Include="Assets\ThreeLittlePigs.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
@@ -160,6 +172,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="AdultBook.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="KidBook.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

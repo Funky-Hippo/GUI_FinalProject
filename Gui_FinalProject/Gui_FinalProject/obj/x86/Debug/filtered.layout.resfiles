@@ -1,14 +1,21 @@
 WinMetadata\Windows.winmd
 Assets\DMVManual.jpg
 Assets\eigthpage.jpg
+Assets\eigthpage_adultbook.jpg
 Assets\fifthpage.jpg
+Assets\fifthpage_adultbook.jpg
 Assets\firstpage.jpg
+Assets\firstpage_adultbook - Copy.jpg
 Assets\fourthpage.jpg
+Assets\fourthpage_adultbook.jpg
 Assets\KidIcon.jpg
 Assets\LockScreenLogo.scale-200.png
 Assets\ninthpage.jpg
+Assets\ninthpage_adultbook.jpg
 Assets\secondpage.jpg
+Assets\secondpage_adultbook.jpg
 Assets\seventhpage.jpg
+Assets\seventhpage_adultbook.jpg
 Assets\sixthpage.jpg
 Assets\SplashScreen.scale-200.png
 Assets\Square150x150Logo.scale-200.png
@@ -16,9 +23,12 @@ Assets\Square44x44Logo.scale-200.png
 Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 Assets\StoreLogo.png
 Assets\tenthpage.jpg
+Assets\tenthpage_adultbook.jpg
 Assets\thirdpage.jpg
+Assets\thirdpage_adultbook.jpg
 Assets\ThreeLittlePigs.jpg
 Assets\Wide310x150Logo.scale-200.png
+AdultBook.xbf
 App.xbf
 Gui_FinalProject.xr.xml
 KidBook.xbf

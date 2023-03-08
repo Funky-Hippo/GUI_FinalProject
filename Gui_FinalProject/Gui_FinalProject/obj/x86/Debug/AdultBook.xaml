@@ -1,0 +1,54 @@
+﻿<Page
+    x:Class="Gui_FinalProject.AdultBook"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Gui_FinalProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="White">
+
+    <Canvas>
+        <FlipView Width="1400" Height="775">
+
+            <ScrollViewer>
+                <Image Source="Assets\firstpage_adultbook - Copy.jpg"/>
+            </ScrollViewer>
+
+            <ScrollViewer>
+                <Image Source="Assets\secondpage_adultbook.jpg"/>
+            </ScrollViewer>
+
+            <ScrollViewer>
+                <Image Source="Assets\thirdpage_adultbook.jpg"/>
+            </ScrollViewer>
+
+            <ScrollViewer>
+                <Image Source="Assets\fourthpage_adultbook.jpg"/>
+            </ScrollViewer>
+
+            <ScrollViewer>
+                <Image Source="Assets\fifthpage_adultbook.jpg"/>
+            </ScrollViewer>
+
+            <ScrollViewer>
+                <Image Source="Assets\seventhpage_adultbook.jpg"/>
+            </ScrollViewer>
+
+            <ScrollViewer>
+                <Image Source="Assets\eigthpage_adultbook.jpg"/>
+            </ScrollViewer>
+
+            <ScrollViewer>
+                <Image Source="Assets\ninthpage_adultbook.jpg"/>
+            </ScrollViewer>
+
+            <ScrollViewer>
+                <Image Source="Assets\tenthpage_adultbook.jpg"/>
+            </ScrollViewer>
+
+        </FlipView>
+
+    </Canvas>
+</Page>
+

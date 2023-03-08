@@ -32,5 +32,10 @@ namespace Gui_FinalProject
             this.Frame.Navigate(typeof(KidBook)); 
         }
 
+        private void DMV_ButtonClick(Object sender, RoutedEventArgs e) 
+        {
+            this.Frame.Navigate(typeof(AdultBook));
+        }
+
     }
 }

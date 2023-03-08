@@ -134,7 +134,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\DMVManual.jpg" />
+    <Content Include="Assets\eigthpage.jpg" />
+    <Content Include="Assets\fifthpage.jpg" />
+    <Content Include="Assets\firstpage.jpg" />
+    <Content Include="Assets\fourthpage.jpg" />
     <Content Include="Assets\KidIcon.jpg" />
+    <Content Include="Assets\ninthpage.jpg" />
+    <Content Include="Assets\secondpage.jpg" />
+    <Content Include="Assets\seventhpage.jpg" />
+    <Content Include="Assets\sixthpage.jpg" />
+    <Content Include="Assets\tenthpage.jpg" />
+    <Content Include="Assets\thirdpage.jpg" />
     <Content Include="Assets\ThreeLittlePigs.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />

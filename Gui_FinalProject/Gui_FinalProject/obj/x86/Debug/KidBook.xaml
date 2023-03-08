@@ -6,10 +6,23 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="SlateGray">
+    Background="White">
 
-    <Grid>
+    <Canvas>
 
-    </Grid>
+        <FlipView Width="1400" Height="950" Canvas.Top="-80">
+            <Image Source="Assets/firstpage.jpg"></Image>
+            <Image Source="Assets/secondpage.jpg"></Image>
+            <Image Source="Assets/thirdpage.jpg"></Image>
+            <Image Source="Assets/fourthpage.jpg"></Image>
+            <Image Source="Assets/fifthpage.jpg"></Image>
+            <Image Source="Assets/sixthpage.jpg"></Image>
+            <Image Source="Assets/seventhpage.jpg"></Image>
+            <Image Source="Assets/eigthpage.jpg"></Image>
+            <Image Source="Assets/ninthpage.jpg"></Image>
+            <Image Source="Assets/tenthpage.jpg"></Image>
+        </FlipView>
+
+    </Canvas>
 </Page>
 

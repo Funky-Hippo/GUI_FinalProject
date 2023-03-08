@@ -34,8 +34,14 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\DMVManual.jpg">
+      <PackagePath>Assets\DMVManual.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\KidIcon.jpg">
       <PackagePath>Assets\KidIcon.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\ThreeLittlePigs.jpg">
+      <PackagePath>Assets\ThreeLittlePigs.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -73,8 +79,8 @@
     <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\CarBook.xbf">
-      <PackagePath>CarBook.xbf</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\ThreeLittlePigsBook.xbf">
+      <PackagePath>ThreeLittlePigsBook.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>

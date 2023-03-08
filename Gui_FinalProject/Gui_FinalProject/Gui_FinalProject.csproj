@@ -119,8 +119,8 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CarBook.xaml.cs">
-      <DependentUpon>CarBook.xaml</DependentUpon>
+    <Compile Include="ThreeLittlePigsBook.xaml.cs">
+      <DependentUpon>ThreeLittlePigsBook.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -133,7 +133,9 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\DMVManual.jpg" />
     <Content Include="Assets\KidIcon.jpg" />
+    <Content Include="Assets\ThreeLittlePigs.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -148,7 +150,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="CarBook.xaml">
+    <Page Include="ThreeLittlePigsBook.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

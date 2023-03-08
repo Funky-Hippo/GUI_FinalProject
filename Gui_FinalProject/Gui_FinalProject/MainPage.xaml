@@ -6,15 +6,11 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="Gray">
+    Background="SlateGray">
 
     <Canvas>
 
         <CommandBar  HorizontalAlignment="Left" VerticalAlignment="Center">
-
-            <AppBarButton Content="Settings">
-
-            </AppBarButton>
 
             <AppBarButton Content="Project Information">
 
@@ -24,14 +20,49 @@
 
         <TextBlock Canvas.Left="675" Canvas.Top="140" Text="Library" FontSize="50"/>
 
-        <ScrollViewer HorizontalScrollBarVisibility="Auto" Canvas.Left="250" Canvas.Top="250" Height="500" Width="800">
+        <ComboBox Canvas.Left="10" Canvas.Top="60" x:Name="LanguageSelector" Header="Language">
+
+            <ComboBoxItem Content="English" IsSelected="True">
+                
+            </ComboBoxItem>
+
+            <ComboBoxItem Content="Spanish">
+                
+            </ComboBoxItem>
+            
+            
+        </ComboBox>
+
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" Canvas.Left="350" Canvas.Top="250" Height="500" Width="800">
             <StackPanel Orientation="Horizontal">
 
-                <Button  Content="Book 1" Width="400" Height="500" Margin="0,0,10,0">
+                <Button Width="480" Height="500" Margin="0,0,10,0" Background="Black">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="500"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="480"/>
+                        </Grid.ColumnDefinitions>
+                        
+                        
+                        <Image Source="Assets/ThreeLittlePigs.jpg" Stretch="Fill"/>
+                    </Grid>
 
                 </Button>
 
-                <Button  Content="Book 2" Width="400" Height="500" Margin="0,0,10,0">
+                <Button Width="400" Height="500" Margin="0,0,10,0" Background="Black">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="500"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="480"/>
+                        </Grid.ColumnDefinitions>
+
+
+                        <Image Source="Assets/DMVManual.jpg" Stretch="Fill"/>
+                    </Grid>
 
                 </Button>
 

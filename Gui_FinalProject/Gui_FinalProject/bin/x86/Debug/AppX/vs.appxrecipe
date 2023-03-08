@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-06T21:44:56.466</Modified>
+      <Modified>2023-03-08T04:44:03.816</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\Gui_FinalProject.exe">
       <PackagePath>entrypoint\Gui_FinalProject.exe</PackagePath>
-      <Modified>2023-03-06T21:44:55.916</Modified>
+      <Modified>2023-03-08T04:44:03.224</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,9 +46,17 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2020-12-02T11:52:00.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\DMVManual.jpg">
+      <PackagePath>Assets\DMVManual.jpg</PackagePath>
+      <Modified>2023-03-08T04:39:28.260</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\KidIcon.jpg">
       <PackagePath>Assets\KidIcon.jpg</PackagePath>
-      <Modified>2023-03-06T20:39:37.150</Modified>
+      <Modified>2023-03-08T04:19:33.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\ThreeLittlePigs.jpg">
+      <PackagePath>Assets\ThreeLittlePigs.jpg</PackagePath>
+      <Modified>2023-03-08T04:26:46.279</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -90,19 +98,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\Gui_FinalProject.xr.xml">
       <PackagePath>Gui_FinalProject.xr.xml</PackagePath>
-      <Modified>2023-03-06T21:44:35.103</Modified>
+      <Modified>2023-03-08T04:44:03.162</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-03-06T21:44:55.859</Modified>
+      <Modified>2023-03-08T04:44:03.167</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\CarBook.xbf">
-      <PackagePath>CarBook.xbf</PackagePath>
-      <Modified>2023-03-06T21:44:55.859</Modified>
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\ThreeLittlePigsBook.xbf">
+      <PackagePath>ThreeLittlePigsBook.xbf</PackagePath>
+      <Modified>2023-03-08T04:44:03.167</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-03-06T21:44:55.859</Modified>
+      <Modified>2023-03-08T04:44:03.167</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -110,11 +118,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-03-06T21:44:35.867</Modified>
+      <Modified>2023-03-08T04:44:03.497</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\Core\Gui_FinalProject.exe">
       <PackagePath>Gui_FinalProject.exe</PackagePath>
-      <Modified>2023-03-06T21:44:56.462</Modified>
+      <Modified>2023-03-08T04:44:03.813</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -10,22 +10,39 @@
 
     <Canvas>
 
-        <MediaElement x:ConnectionId='2' x:Name="media"/>
+        <ComboBox Canvas.Left="1430" Canvas.Top="20" Header="Volume" Foreground="Black">
+            <ComboBoxItem Content="25%"/>
+            <ComboBoxItem Content="50%"/>
+            <ComboBoxItem Content="75%"/>
+            <ComboBoxItem Content="100%"/>
+        </ComboBox>
 
-        <FlipView x:ConnectionId='3' Width="1400" Height="950" Canvas.Top="-80"                                             >
-            <FlipView.Items>
-            <Image Source="Assets/firstpage.jpg"></Image>
-            <Image Source="Assets/secondpage.jpg"></Image>
-            <Image Source="Assets/thirdpage.jpg"></Image>
-            <Image Source="Assets/fourthpage.jpg"></Image>
-            <Image Source="Assets/fifthpage.jpg"></Image>
-            <Image Source="Assets/sixthpage.jpg"></Image>
-            <Image Source="Assets/seventhpage.jpg"></Image>
-            <Image Source="Assets/eigthpage.jpg"></Image>
-            <Image Source="Assets/ninthpage.jpg"></Image>
-            <Image Source="Assets/tenthpage.jpg"></Image>
-            </FlipView.Items>
+        <ComboBox Canvas.Left="1430" Canvas.Top="100" Header="Audio Speed" Foreground="Black">
+            <ComboBoxItem Content="Normal"/>
+            <ComboBoxItem Content="Faster"/>
+            <ComboBoxItem Content="Slower"/>
+        </ComboBox>
+
+        <Button Content="Play" Canvas.Left="1430" Canvas.Top="180" Foreground="White" Background="Black"/>
+        <Button Content="Pause" Canvas.Left="1430" Canvas.Top="240" Foreground="White" Background="Black"/>
+        
+
+        <FlipView x:ConnectionId='2' Width="1400" Height="950" Canvas.Top="-80"                                             >
+            <Image Source="Assets/firstpage.jpg"/>
+            <Image Source="Assets/secondpage.jpg"/>
+            <Image Source="Assets/thirdpage.jpg"/>
+            <Image Source="Assets/fourthpage.jpg"/>
+            <Image Source="Assets/fifthpage.jpg"/>
+            <Image Source="Assets/sixthpage.jpg"/>
+            <Image Source="Assets/seventhpage.jpg"/>
+            <Image Source="Assets/eigthpage.jpg"/>
+            <Image Source="Assets/ninthpage.jpg"/>
+            <Image Source="Assets/tenthpage.jpg"/>
         </FlipView>
+
+
+
+        <MediaElement x:ConnectionId='3' x:Name="media"/>
 
     </Canvas>
 </Page>

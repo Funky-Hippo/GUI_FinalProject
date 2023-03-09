@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-09T21:57:35.867</Modified>
+      <Modified>2023-03-09T23:25:30.736</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\Gui_FinalProject.exe">
       <PackagePath>entrypoint\Gui_FinalProject.exe</PackagePath>
-      <Modified>2023-03-09T21:57:35.422</Modified>
+      <Modified>2023-03-09T23:25:30.261</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -174,23 +174,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\Gui_FinalProject.xr.xml">
       <PackagePath>Gui_FinalProject.xr.xml</PackagePath>
-      <Modified>2023-03-09T21:18:52.997</Modified>
+      <Modified>2023-03-09T23:25:30.210</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-03-09T21:57:35.367</Modified>
+      <Modified>2023-03-09T23:25:30.215</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\AdultBook.xbf">
       <PackagePath>AdultBook.xbf</PackagePath>
-      <Modified>2023-03-09T21:57:35.367</Modified>
+      <Modified>2023-03-09T23:25:30.215</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\KidBook.xbf">
       <PackagePath>KidBook.xbf</PackagePath>
-      <Modified>2023-03-09T21:57:35.367</Modified>
+      <Modified>2023-03-09T23:25:30.215</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-03-09T21:57:35.367</Modified>
+      <Modified>2023-03-09T23:25:30.215</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -202,7 +202,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\Core\Gui_FinalProject.exe">
       <PackagePath>Gui_FinalProject.exe</PackagePath>
-      <Modified>2023-03-09T21:57:35.863</Modified>
+      <Modified>2023-03-09T23:25:30.732</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

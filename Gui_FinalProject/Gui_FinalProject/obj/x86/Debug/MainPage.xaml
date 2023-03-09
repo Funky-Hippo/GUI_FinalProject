@@ -23,11 +23,11 @@
 
         <ComboBox x:ConnectionId='2' Canvas.Left="10" Canvas.Top="60" x:Name="LanguageSelector" Header="Language">
 
-            <ComboBoxItem Content="English" IsSelected="True">
+            <ComboBoxItem Content="Default" IsSelected="True">
                 
             </ComboBoxItem>
 
-            <ComboBoxItem Content="Spanish">
+            <ComboBoxItem Content="Dark">
                 
             </ComboBoxItem>
             

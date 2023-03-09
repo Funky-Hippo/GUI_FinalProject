@@ -106,11 +106,9 @@ namespace Gui_FinalProject
 
                     break;
 
-
                 case 6:
 
                     TextToSpeech(pagedata[6]);
-
 
                     break;
 
@@ -119,7 +117,6 @@ namespace Gui_FinalProject
                     TextToSpeech(pagedata[7]);
 
                     break;
-
 
                 case 8:
 
@@ -132,7 +129,6 @@ namespace Gui_FinalProject
                     TextToSpeech(pagedata[9]);
 
                     break;
-
 
                 default:
 

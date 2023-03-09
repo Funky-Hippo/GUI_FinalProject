@@ -10,7 +10,9 @@
 
     <Canvas>
 
-        <FlipView x:ConnectionId='2' Width="1400" Height="950" Canvas.Top="-80"                                             >
+        <MediaElement x:ConnectionId='2' x:Name="media"/>
+
+        <FlipView x:ConnectionId='3' Width="1400" Height="950" Canvas.Top="-80"                                             >
             <FlipView.Items>
             <Image Source="Assets/firstpage.jpg"></Image>
             <Image Source="Assets/secondpage.jpg"></Image>

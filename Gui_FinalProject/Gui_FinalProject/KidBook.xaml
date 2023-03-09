@@ -10,6 +10,8 @@
 
     <Canvas>
 
+        <MediaElement x:Name="media"/>
+
         <FlipView Width="1400" Height="950" Canvas.Top="-80" SelectionChanged="FlipView_SelectionChanged">
             <FlipView.Items>
             <Image Source="Assets/firstpage.jpg"></Image>

@@ -8,6 +8,7 @@
     mc:Ignorable="d"
     Background="Gray">
 
+
     <Canvas>
 
         <MediaElement x:ConnectionId='2' x:Name="media"/>
@@ -28,11 +29,11 @@
             <ComboBoxItem Content="100%"/>
         </ComboBox>
 
-        <Button x:ConnectionId='5' Content="Play" Canvas.Left="1430" Canvas.Top="180" Background="Black"                         />
+        <Button x:ConnectionId='5' Content="Play" Canvas.Left="450" Canvas.Top="700" Background="Black"                         />
         <Button x:ConnectionId='6' Content="Pause" Canvas.Left="1430" Canvas.Top="240" Background="Black"                          />
 
 
-        <FlipView x:ConnectionId='7' Width="1400" Height="775"                                             >
+        <FlipView x:ConnectionId='7' Width="1400" Height="775"                                              >
 
             <ScrollViewer>
                 <Image Source="Assets\firstpage_adultbook - Copy.jpg"/>

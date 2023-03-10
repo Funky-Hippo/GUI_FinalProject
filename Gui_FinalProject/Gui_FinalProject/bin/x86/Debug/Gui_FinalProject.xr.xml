@@ -48,7 +48,6 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBoxItem">
       <RootProperty Name="Content" />
-      <RootProperty Name="IsSelected" />
     </RootType>
     <RootType FullName="Gui_FinalProject.AdultBook" />
     <RootType FullName="Gui_FinalProject.KidBook" />
@@ -78,6 +77,7 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
       <RootProperty Name="Content" />
+      <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Gui_FinalProject.MainPage" />
   </Roots.RootTypes>

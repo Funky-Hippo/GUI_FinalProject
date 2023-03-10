@@ -8,6 +8,7 @@
     mc:Ignorable="d"
     Background="Gray">
 
+
     <Canvas>
 
         <MediaElement x:Name="media"/>
@@ -28,11 +29,11 @@
             <ComboBoxItem Content="100%"/>
         </ComboBox>
 
-        <Button Content="Play" Canvas.Left="1430" Canvas.Top="180" Background="Black" Click="PlayButton_Click"/>
+        <Button Content="Play" Canvas.Left="450" Canvas.Top="700" Background="Black" Click="PlayButton_Click"/>
         <Button Content="Pause" Canvas.Left="1430" Canvas.Top="240" Background="Black" Click="PauseButton_Click"/>
 
 
-        <FlipView Width="1400" Height="775" SelectionChanged="FlipView_SelectionChanged">
+        <FlipView Width="1400" Height="775" SelectionChanged="FlipView_SelectionChanged" >
 
             <ScrollViewer>
                 <Image Source="Assets\firstpage_adultbook - Copy.jpg"/>

@@ -148,7 +148,6 @@ namespace Gui_FinalProject
         {
             var combobox = ((ComboBox)sender);
 
-
             switch (combobox.SelectedIndex)
             {
                 case 0:
@@ -181,9 +180,7 @@ namespace Gui_FinalProject
 
                     break;
 
-
                 default:
-
                     break;
             }
         }

@@ -13,26 +13,13 @@
 
         <CommandBar  HorizontalAlignment="Left" VerticalAlignment="Center">
 
-            <AppBarButton Content="Project Information">
+            <AppBarButton Content="Project Information" Click="ProjectInfoAppBarButton_Click">
 
             </AppBarButton>
 
         </CommandBar>
 
         <TextBlock Canvas.Left="675" Canvas.Top="140" Text="Library" FontSize="50"/>
-
-        <ComboBox Canvas.Left="10" Canvas.Top="60" x:Name="LanguageSelector" Header="Language">
-
-            <ComboBoxItem Content="Default" IsSelected="True">
-                
-            </ComboBoxItem>
-
-            <ComboBoxItem Content="Dark">
-                
-            </ComboBoxItem>
-            
-            
-        </ComboBox>
 
         <ScrollViewer HorizontalScrollBarVisibility="Auto" Canvas.Left="350" Canvas.Top="250" Height="500" Width="800">
             <StackPanel Orientation="Horizontal">

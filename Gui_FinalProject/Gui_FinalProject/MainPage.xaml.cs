@@ -37,5 +37,16 @@ namespace Gui_FinalProject
             this.Frame.Navigate(typeof(AdultBook));
         }
 
+        private async void ProjectInfoAppBarButton_Click(object sender, RoutedEventArgs e)
+        {
+            ContentDialog aboutDialog = new ContentDialog()
+            {
+                Title = "Book E-Reader Project",
+                Content = "Created In GUI, Winter Term, 2023.\nPress Ok To Close.",
+                CloseButtonText = "Ok"
+            };
+
+            await aboutDialog.ShowAsync();
+        }
     }
 }

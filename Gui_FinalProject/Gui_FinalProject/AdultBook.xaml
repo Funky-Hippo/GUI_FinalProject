@@ -16,16 +16,12 @@
         <Slider Value="50" Canvas.Left="250" Canvas.Top="605" x:Name="volumeSlider" Header="Volume" Width="200"
         ValueChanged="VolumeSlider_ValueChanged"/>
 
-        <ComboBox Canvas.Left="488" Canvas.Top="605" Header="Audio Speed" Foreground="Black" SelectionChanged="AudioSpeedComboBox_SelectionChanged">
-            <ComboBoxItem Content="25%"/>
-            <ComboBoxItem Content="50%"/>
-            <ComboBoxItem Content="75%"/>
-            <ComboBoxItem Content="100%"/>
-        </ComboBox>
+        <Slider Value="100" Canvas.Left="488" Canvas.Top="605" Header="Audio Speed" Foreground="Black" ValueChanged="AudioSpeedSlider_ValueChanged">
+        </Slider>
 
         <Button Content="Play" Canvas.Left="737" Canvas.Top="627" Background="Black" Click="PlayButton_Click" VerticalAlignment="Top"/>
         <Button Content="Pause" Canvas.Left="622" Canvas.Top="627" Background="Black" Click="PauseButton_Click" VerticalAlignment="Top"/>
-
+        <Button Content="Home" Canvas.Left="830" Canvas.Top="627" Background="Black" Click="HomeButton_Click" VerticalAlignment="Top" />
 
         <FlipView Width="1535" Height="600" SelectionChanged="FlipView_SelectionChanged" >
 

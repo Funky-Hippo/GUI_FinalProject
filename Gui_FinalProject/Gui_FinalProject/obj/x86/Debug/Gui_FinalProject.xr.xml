@@ -21,13 +21,8 @@
       <RootProperty Name="Value" />
       <RootProperty Name="Header" />
       <RootProperty Name="Width" />
-      <RootEvent Name="ValueChanged" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
-      <RootProperty Name="Header" />
       <RootProperty Name="Foreground" />
-      <RootProperty Name="Items" />
-      <RootEvent Name="SelectionChanged" />
+      <RootEvent Name="ValueChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
@@ -55,10 +50,16 @@
       <RootProperty Name="Source" />
       <RootProperty Name="Stretch" />
     </RootType>
+    <RootType FullName="Gui_FinalProject.AdultBook" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
+      <RootProperty Name="Header" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Items" />
+      <RootEvent Name="SelectionChanged" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBoxItem">
       <RootProperty Name="Content" />
     </RootType>
-    <RootType FullName="Gui_FinalProject.AdultBook" />
     <RootType FullName="Gui_FinalProject.KidBook" />
     <RootType FullName="Windows.UI.Xaml.Controls.CommandBar">
       <RootProperty Name="Foreground" />

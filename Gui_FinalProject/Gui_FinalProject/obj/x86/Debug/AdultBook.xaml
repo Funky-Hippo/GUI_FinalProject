@@ -16,18 +16,14 @@
         <Slider x:ConnectionId='3' Value="50" Canvas.Left="250" Canvas.Top="605" x:Name="volumeSlider" Header="Volume" Width="200"
                                                 />
 
-        <ComboBox x:ConnectionId='4' Canvas.Left="488" Canvas.Top="605" Header="Audio Speed" Foreground="Black"                                                       >
-            <ComboBoxItem Content="25%"/>
-            <ComboBoxItem Content="50%"/>
-            <ComboBoxItem Content="75%"/>
-            <ComboBoxItem Content="100%"/>
-        </ComboBox>
+        <Slider x:ConnectionId='4' Value="100" Canvas.Left="488" Canvas.Top="605" Header="Audio Speed" Foreground="Black"                                             >
+        </Slider>
 
         <Button x:ConnectionId='5' Content="Play" Canvas.Left="737" Canvas.Top="627" Background="Black"                          VerticalAlignment="Top"/>
         <Button x:ConnectionId='6' Content="Pause" Canvas.Left="622" Canvas.Top="627" Background="Black"                           VerticalAlignment="Top"/>
+        <Button x:ConnectionId='7' Content="Home" Canvas.Left="830" Canvas.Top="627" Background="Black"                          VerticalAlignment="Top" />
 
-
-        <FlipView x:ConnectionId='7' Width="1535" Height="600"                                              >
+        <FlipView x:ConnectionId='8' Width="1535" Height="600"                                              >
 
             <ScrollViewer>
                 <Image Source="Assets\firstpage_adultbook - Copy.jpg"/>

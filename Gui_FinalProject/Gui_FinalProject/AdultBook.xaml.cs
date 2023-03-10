@@ -204,51 +204,21 @@ namespace Gui_FinalProject
             }
         }
 
-
-        private void AudioSpeedComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void AudioSpeedSlider_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
         {
-            float quarter_volume = 0.25F;
-            float half_volume = 0.5F;
-            float threequarters_volume = 0.75F;
-            float full_volume = 1;
-
-            var combobox = ((ComboBox)sender);
-
-            switch (combobox.SelectedIndex)
+            Slider slider = sender as Slider;
+            if (slider != null)
             {
-                case 0:
+                media.PlaybackRate = slider.Value / 100;
+                media.DefaultPlaybackRate = slider.Value / 100;
+            }
+        }
 
-                    media.DefaultPlaybackRate = quarter_volume;
-                    media.PlaybackRate = quarter_volume;
-
-
-                    break;
-
-                case 1:
-
-                    media.DefaultPlaybackRate = half_volume;
-                    media.PlaybackRate = half_volume;
-
-                    break;
-
-                case 2:
-
-                    media.DefaultPlaybackRate = threequarters_volume;
-                    media.PlaybackRate = threequarters_volume;
-
-
-                    break;
-
-                case 3:
-
-                    media.DefaultPlaybackRate = full_volume;
-                    media.PlaybackRate = full_volume;
-
-                    break;
-
-                default:
-
-                    break;
+        private void HomeButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (this.Frame.CanGoBack)
+            {
+                this.Frame.GoBack();
             }
         }
     }

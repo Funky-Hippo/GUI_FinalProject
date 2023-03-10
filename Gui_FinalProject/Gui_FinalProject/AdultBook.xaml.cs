@@ -144,9 +144,48 @@ namespace Gui_FinalProject
             media.Play();
         }
 
-        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void VolumeComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            var combobox = ((ComboBox)sender);
 
+
+            switch (combobox.SelectedIndex)
+            {
+                case 0:
+
+                    media.Volume = 0;
+
+                    break;
+
+                case 1:
+
+                    media.Volume = 0.25;
+
+                    break;
+
+                case 2:
+
+                    media.Volume = 0.5;
+
+                    break;
+
+                case 3:
+
+                    media.Volume = 0.75;
+
+                    break;
+
+                case 4:
+
+                    media.Volume = 1;
+
+                    break;
+
+
+                default:
+
+                    break;
+            }
         }
 
         private void PlayButton_Click(object sender, RoutedEventArgs e)
@@ -157,6 +196,53 @@ namespace Gui_FinalProject
         private void PauseButton_Click(object sender, RoutedEventArgs e)
         {
             media.Pause();
+        }
+
+        private void AudioSpeedComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            float quarter_volume = 0.25F;
+            float half_volume = 0.5F;
+            float threequarters_volume = 0.75F;
+            float full_volume = 1;
+
+            var combobox = ((ComboBox)sender);
+
+            switch (combobox.SelectedIndex)
+            {
+                case 0:
+
+                    media.DefaultPlaybackRate = quarter_volume;
+                    media.PlaybackRate = quarter_volume;
+
+
+                    break;
+
+                case 1:
+
+                    media.DefaultPlaybackRate = half_volume;
+                    media.PlaybackRate = half_volume;
+
+                    break;
+
+                case 2:
+
+                    media.DefaultPlaybackRate = threequarters_volume;
+                    media.PlaybackRate = threequarters_volume;
+
+
+                    break;
+
+                case 3:
+
+                    media.DefaultPlaybackRate = full_volume;
+                    media.PlaybackRate = full_volume;
+
+                    break;
+
+                default:
+
+                    break;
+            }
         }
     }
 }

@@ -13,24 +13,26 @@
         <MediaElement x:ConnectionId='2' x:Name="media"/>
 
 
-        <ComboBox x:ConnectionId='3' Canvas.Left="1430" Canvas.Top="20" Header="Volume" Foreground="Black"                                             >
+        <ComboBox x:ConnectionId='3' Canvas.Left="1430" Canvas.Top="20" Header="Volume" Foreground="Black"                                                   >
+            <ComboBoxItem Content="Mute"/>
             <ComboBoxItem Content="25%"/>
             <ComboBoxItem Content="50%"/>
             <ComboBoxItem Content="75%"/>
             <ComboBoxItem Content="100%"/>
         </ComboBox>
 
-        <ComboBox Canvas.Left="1430" Canvas.Top="100" Header="Audio Speed" Foreground="Black">
-            <ComboBoxItem Content="Normal"/>
-            <ComboBoxItem Content="Faster"/>
-            <ComboBoxItem Content="Slower"/>
+        <ComboBox x:ConnectionId='4' Canvas.Left="1430" Canvas.Top="100" Header="Audio Speed" Foreground="Black"                                                       >
+            <ComboBoxItem Content="25%"/>
+            <ComboBoxItem Content="50%"/>
+            <ComboBoxItem Content="75%"/>
+            <ComboBoxItem Content="100%"/>
         </ComboBox>
 
-        <Button x:ConnectionId='4' Content="Play" Canvas.Left="1430" Canvas.Top="180" Background="Black"                         />
-        <Button x:ConnectionId='5' Content="Pause" Canvas.Left="1430" Canvas.Top="240" Background="Black"                          />
+        <Button x:ConnectionId='5' Content="Play" Canvas.Left="1430" Canvas.Top="180" Background="Black"                         />
+        <Button x:ConnectionId='6' Content="Pause" Canvas.Left="1430" Canvas.Top="240" Background="Black"                          />
 
 
-        <FlipView x:ConnectionId='6' Width="1400" Height="775"                                             >
+        <FlipView x:ConnectionId='7' Width="1400" Height="775"                                             >
 
             <ScrollViewer>
                 <Image Source="Assets\firstpage_adultbook - Copy.jpg"/>

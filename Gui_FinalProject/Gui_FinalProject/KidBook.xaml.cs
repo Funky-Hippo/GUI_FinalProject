@@ -205,35 +205,42 @@ namespace Gui_FinalProject
 
         private void VolumeSpeedComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            var combobox = ((ComboBox)sender);
+            float quarter_volume = 0.25F;
+            float half_volume = 0.5F;
+            float threequarters_volume = 0.75F; 
+            float full_volume = 1;
 
+            var combobox = ((ComboBox)sender);
 
             switch (combobox.SelectedIndex)
             {
                 case 0:
 
-                    media.PlaybackRate = 0.25;
+                    media.DefaultPlaybackRate = quarter_volume;
+                    media.PlaybackRate = quarter_volume;
 
 
                     break;
 
                 case 1:
 
-                    media.PlaybackRate = 0.5;
-
+                    media.DefaultPlaybackRate = half_volume;
+                    media.PlaybackRate = half_volume;
 
                     break;
 
                 case 2:
 
-                    media.PlaybackRate = 0.75;
+                    media.DefaultPlaybackRate = threequarters_volume;
+                    media.PlaybackRate = threequarters_volume;
 
 
                     break;
 
                 case 3:
 
-                    media.PlaybackRate = 1;
+                    media.DefaultPlaybackRate = full_volume;
+                    media.PlaybackRate = full_volume;
 
                     break;
 

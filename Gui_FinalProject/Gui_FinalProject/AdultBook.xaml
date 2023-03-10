@@ -13,17 +13,19 @@
         <MediaElement x:Name="media"/>
 
 
-        <ComboBox Canvas.Left="1430" Canvas.Top="20" Header="Volume" Foreground="Black" SelectionChanged="ComboBox_SelectionChanged">
+        <ComboBox Canvas.Left="1430" Canvas.Top="20" Header="Volume" Foreground="Black" SelectionChanged="VolumeComboBox_SelectionChanged">
+            <ComboBoxItem Content="Mute"/>
             <ComboBoxItem Content="25%"/>
             <ComboBoxItem Content="50%"/>
             <ComboBoxItem Content="75%"/>
             <ComboBoxItem Content="100%"/>
         </ComboBox>
 
-        <ComboBox Canvas.Left="1430" Canvas.Top="100" Header="Audio Speed" Foreground="Black">
-            <ComboBoxItem Content="Normal"/>
-            <ComboBoxItem Content="Faster"/>
-            <ComboBoxItem Content="Slower"/>
+        <ComboBox Canvas.Left="1430" Canvas.Top="100" Header="Audio Speed" Foreground="Black" SelectionChanged="AudioSpeedComboBox_SelectionChanged">
+            <ComboBoxItem Content="25%"/>
+            <ComboBoxItem Content="50%"/>
+            <ComboBoxItem Content="75%"/>
+            <ComboBoxItem Content="100%"/>
         </ComboBox>
 
         <Button Content="Play" Canvas.Left="1430" Canvas.Top="180" Background="Black" Click="PlayButton_Click"/>

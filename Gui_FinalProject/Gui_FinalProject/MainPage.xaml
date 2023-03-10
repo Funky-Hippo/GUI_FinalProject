@@ -11,9 +11,9 @@
 
     <Canvas>
 
-        <CommandBar  HorizontalAlignment="Left" VerticalAlignment="Center">
+        <CommandBar Foreground="White" Background="Black" HorizontalAlignment="Left" VerticalAlignment="Center">
 
-            <AppBarButton Content="Project Information" Click="ProjectInfoAppBarButton_Click">
+            <AppBarButton Foreground="White" Content="Project Information" Click="ProjectInfoAppBarButton_Click">
 
             </AppBarButton>
 

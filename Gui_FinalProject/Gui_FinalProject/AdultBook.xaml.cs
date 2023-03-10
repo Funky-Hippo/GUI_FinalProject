@@ -195,6 +195,16 @@ namespace Gui_FinalProject
             media.Pause();
         }
 
+        private void VolumeSlider_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
+        {
+            Slider slider = sender as Slider;
+            if (slider != null)
+            {
+                media.Volume = slider.Value / 100;
+            }
+        }
+
+
         private void AudioSpeedComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             float quarter_volume = 0.25F;

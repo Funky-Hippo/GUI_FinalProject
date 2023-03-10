@@ -11,29 +11,23 @@
 
     <Canvas>
 
-        <MediaElement x:Name="media"/>
+        <MediaElement x:Name="media" Volume="0.50"/>
 
+        <Slider Value="50" Canvas.Left="250" Canvas.Top="605" x:Name="volumeSlider" Header="Volume" Width="200"
+        ValueChanged="VolumeSlider_ValueChanged"/>
 
-        <ComboBox Canvas.Left="1430" Canvas.Top="20" Header="Volume" Foreground="Black" SelectionChanged="VolumeComboBox_SelectionChanged">
-            <ComboBoxItem Content="Mute"/>
+        <ComboBox Canvas.Left="488" Canvas.Top="605" Header="Audio Speed" Foreground="Black" SelectionChanged="AudioSpeedComboBox_SelectionChanged">
             <ComboBoxItem Content="25%"/>
             <ComboBoxItem Content="50%"/>
             <ComboBoxItem Content="75%"/>
             <ComboBoxItem Content="100%"/>
         </ComboBox>
 
-        <ComboBox Canvas.Left="1430" Canvas.Top="100" Header="Audio Speed" Foreground="Black" SelectionChanged="AudioSpeedComboBox_SelectionChanged">
-            <ComboBoxItem Content="25%"/>
-            <ComboBoxItem Content="50%"/>
-            <ComboBoxItem Content="75%"/>
-            <ComboBoxItem Content="100%"/>
-        </ComboBox>
-
-        <Button Content="Play" Canvas.Left="450" Canvas.Top="700" Background="Black" Click="PlayButton_Click"/>
-        <Button Content="Pause" Canvas.Left="1430" Canvas.Top="240" Background="Black" Click="PauseButton_Click"/>
+        <Button Content="Play" Canvas.Left="737" Canvas.Top="627" Background="Black" Click="PlayButton_Click" VerticalAlignment="Top"/>
+        <Button Content="Pause" Canvas.Left="622" Canvas.Top="627" Background="Black" Click="PauseButton_Click" VerticalAlignment="Top"/>
 
 
-        <FlipView Width="1400" Height="775" SelectionChanged="FlipView_SelectionChanged" >
+        <FlipView Width="1535" Height="600" SelectionChanged="FlipView_SelectionChanged" >
 
             <ScrollViewer>
                 <Image Source="Assets\firstpage_adultbook - Copy.jpg"/>

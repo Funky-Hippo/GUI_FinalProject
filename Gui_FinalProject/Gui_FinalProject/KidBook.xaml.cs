@@ -150,7 +150,97 @@ namespace Gui_FinalProject
             media.Play();
         }
 
+        private void PlayButton_Click(object sender, RoutedEventArgs e)
+        {
+            media.Play();
+        }
+
+        private void PauseButton_Click(object sender, RoutedEventArgs e)
+        {
+            media.Pause(); 
+        }
+
+        private void VolumeComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var combobox = ((ComboBox)sender);
 
 
+            switch (combobox.SelectedIndex)
+            {
+                case 0:
+
+                    media.Volume = 0;
+
+                    break;
+
+                case 1:
+
+                    media.Volume = 0.25;
+
+                    break;
+
+                case 2:
+
+                    media.Volume = 0.5;
+
+                    break;
+
+                case 3:
+
+                    media.Volume = 0.75;
+
+                    break;
+
+                case 4:
+
+                    media.Volume = 1;
+
+                    break;
+
+                default:
+
+                    break;
+            }
+        }
+
+        private void VolumeSpeedComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var combobox = ((ComboBox)sender);
+
+
+            switch (combobox.SelectedIndex)
+            {
+                case 0:
+
+                    media.PlaybackRate = 0.25;
+
+
+                    break;
+
+                case 1:
+
+                    media.PlaybackRate = 0.5;
+
+
+                    break;
+
+                case 2:
+
+                    media.PlaybackRate = 0.75;
+
+
+                    break;
+
+                case 3:
+
+                    media.PlaybackRate = 1;
+
+                    break;
+
+                default:
+
+                    break;
+            }
+        }
     }
 }

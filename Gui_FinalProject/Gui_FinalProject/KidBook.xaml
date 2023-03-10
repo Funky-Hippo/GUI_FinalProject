@@ -6,25 +6,27 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="White">
+    Background="Gray">
 
     <Canvas>
 
-        <ComboBox Canvas.Left="1430" Canvas.Top="20" Header="Volume" Foreground="Black">
+        <ComboBox Canvas.Left="1430" Canvas.Top="20" Header="Volume" Foreground="Black" SelectionChanged="VolumeComboBox_SelectionChanged">
+            <ComboBoxItem Content="Mute"/>
             <ComboBoxItem Content="25%"/>
             <ComboBoxItem Content="50%"/>
             <ComboBoxItem Content="75%"/>
             <ComboBoxItem Content="100%"/>
         </ComboBox>
 
-        <ComboBox Canvas.Left="1430" Canvas.Top="100" Header="Audio Speed" Foreground="Black">
-            <ComboBoxItem Content="Normal"/>
-            <ComboBoxItem Content="Faster"/>
-            <ComboBoxItem Content="Slower"/>
+        <ComboBox Canvas.Left="1430" Canvas.Top="100" Header="Audio Speed" Foreground="Black" SelectionChanged="VolumeSpeedComboBox_SelectionChanged">
+            <ComboBoxItem Content="25%"/>
+            <ComboBoxItem Content="50%"/>
+            <ComboBoxItem Content="75%"/>
+            <ComboBoxItem Content="100%"/>
         </ComboBox>
 
-        <Button Content="Play" Canvas.Left="1430" Canvas.Top="180" Foreground="White" Background="Black"/>
-        <Button Content="Pause" Canvas.Left="1430" Canvas.Top="240" Foreground="White" Background="Black"/>
+        <Button Content="Play" Canvas.Left="1430" Canvas.Top="180" Foreground="White" Background="Black" Click="PlayButton_Click"/>
+        <Button Content="Pause" Canvas.Left="1430" Canvas.Top="240" Foreground="White" Background="Black" Click="PauseButton_Click"/>
         
 
         <FlipView Width="1400" Height="950" Canvas.Top="-80" SelectionChanged="FlipView_SelectionChanged">

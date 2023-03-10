@@ -6,28 +6,30 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="White">
+    Background="Gray">
 
     <Canvas>
 
-        <ComboBox Canvas.Left="1430" Canvas.Top="20" Header="Volume" Foreground="Black">
+        <ComboBox x:ConnectionId='2' Canvas.Left="1430" Canvas.Top="20" Header="Volume" Foreground="Black"                                                   >
+            <ComboBoxItem Content="Mute"/>
             <ComboBoxItem Content="25%"/>
             <ComboBoxItem Content="50%"/>
             <ComboBoxItem Content="75%"/>
             <ComboBoxItem Content="100%"/>
         </ComboBox>
 
-        <ComboBox Canvas.Left="1430" Canvas.Top="100" Header="Audio Speed" Foreground="Black">
-            <ComboBoxItem Content="Normal"/>
-            <ComboBoxItem Content="Faster"/>
-            <ComboBoxItem Content="Slower"/>
+        <ComboBox x:ConnectionId='3' Canvas.Left="1430" Canvas.Top="100" Header="Audio Speed" Foreground="Black"                                                        >
+            <ComboBoxItem Content="25%"/>
+            <ComboBoxItem Content="50%"/>
+            <ComboBoxItem Content="75%"/>
+            <ComboBoxItem Content="100%"/>
         </ComboBox>
 
-        <Button Content="Play" Canvas.Left="1430" Canvas.Top="180" Foreground="White" Background="Black"/>
-        <Button Content="Pause" Canvas.Left="1430" Canvas.Top="240" Foreground="White" Background="Black"/>
+        <Button x:ConnectionId='4' Content="Play" Canvas.Left="1430" Canvas.Top="180" Foreground="White" Background="Black"                         />
+        <Button x:ConnectionId='5' Content="Pause" Canvas.Left="1430" Canvas.Top="240" Foreground="White" Background="Black"                          />
         
 
-        <FlipView x:ConnectionId='2' Width="1400" Height="950" Canvas.Top="-80"                                             >
+        <FlipView x:ConnectionId='6' Width="1400" Height="950" Canvas.Top="-80"                                             >
             <Image Source="Assets/firstpage.jpg"/>
             <Image Source="Assets/secondpage.jpg"/>
             <Image Source="Assets/thirdpage.jpg"/>
@@ -42,7 +44,7 @@
 
 
 
-        <MediaElement x:ConnectionId='3' x:Name="media"/>
+        <MediaElement x:ConnectionId='7' x:Name="media"/>
 
     </Canvas>
 </Page>

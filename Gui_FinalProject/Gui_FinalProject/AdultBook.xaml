@@ -6,10 +6,31 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="White">
+    Background="Gray">
 
     <Canvas>
-        <FlipView Width="1400" Height="775">
+
+        <MediaElement x:Name="media"/>
+
+
+        <ComboBox Canvas.Left="1430" Canvas.Top="20" Header="Volume" Foreground="Black" SelectionChanged="ComboBox_SelectionChanged">
+            <ComboBoxItem Content="25%"/>
+            <ComboBoxItem Content="50%"/>
+            <ComboBoxItem Content="75%"/>
+            <ComboBoxItem Content="100%"/>
+        </ComboBox>
+
+        <ComboBox Canvas.Left="1430" Canvas.Top="100" Header="Audio Speed" Foreground="Black">
+            <ComboBoxItem Content="Normal"/>
+            <ComboBoxItem Content="Faster"/>
+            <ComboBoxItem Content="Slower"/>
+        </ComboBox>
+
+        <Button Content="Play" Canvas.Left="1430" Canvas.Top="180" Background="Black" Click="PlayButton_Click"/>
+        <Button Content="Pause" Canvas.Left="1430" Canvas.Top="240" Background="Black" Click="PauseButton_Click"/>
+
+
+        <FlipView Width="1400" Height="775" SelectionChanged="FlipView_SelectionChanged">
 
             <ScrollViewer>
                 <Image Source="Assets\firstpage_adultbook - Copy.jpg"/>

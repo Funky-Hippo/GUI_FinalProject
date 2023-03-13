@@ -15,6 +15,8 @@ namespace Gui_FinalProject
     /// </summary>
     public sealed partial class AdultBook : Page
     {
+        bool pressedplay = false;
+
         private readonly string[] pagedata =
         {
             "Everything you need to know to pass your tests is located in this section. It is important that you study the material for each topic. Sample questions are provided to help you test your knowledge.",
@@ -51,79 +53,84 @@ namespace Gui_FinalProject
 
         private void FlipView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            var flipview = ((FlipView)sender);
-            //USE SELECTED INDEX TO FIGURE OUT WHAT PAGE YOU'RE ON
-
-            switch (flipview.SelectedIndex)
+            if (pressedplay)
             {
-                case 0:
 
-                    TextToSpeech(pagedata[0]);
+                var flipview = ((FlipView)sender);
+                //USE SELECTED INDEX TO FIGURE OUT WHAT PAGE YOU'RE ON
 
-                    break;
+                switch (flipview.SelectedIndex)
+                {
+                    case 0:
 
-                case 1:
+                        TextToSpeech(pagedata[0]);
 
-                    TextToSpeech(pagedata[1]);
+                        break;
 
-                    break;
+                    case 1:
 
+                        TextToSpeech(pagedata[1]);
 
-                case 2:
-
-                    TextToSpeech(pagedata[2]);
-
-                    break;
-
-
-                case 3:
-
-                    TextToSpeech(pagedata[3]);
-
-                    break;
-
-                case 4:
-
-                    TextToSpeech(pagedata[4]);
+                        break;
 
 
-                    break;
+                    case 2:
 
-                case 5:
+                        TextToSpeech(pagedata[2]);
 
-                    TextToSpeech(pagedata[5]);
+                        break;
 
-                    break;
 
-                case 6:
+                    case 3:
 
-                    TextToSpeech(pagedata[6]);
+                        TextToSpeech(pagedata[3]);
 
-                    break;
+                        break;
 
-                case 7:
+                    case 4:
 
-                    TextToSpeech(pagedata[7]);
+                        TextToSpeech(pagedata[4]);
 
-                    break;
 
-                case 8:
+                        break;
 
-                    TextToSpeech(pagedata[8]);
+                    case 5:
 
-                    break;
+                        TextToSpeech(pagedata[5]);
 
-                case 9:
+                        break;
 
-                    TextToSpeech(pagedata[9]);
+                    case 6:
 
-                    break;
+                        TextToSpeech(pagedata[6]);
 
-                default:
+                        break;
 
-                    break;
+                    case 7:
+
+                        TextToSpeech(pagedata[7]);
+
+                        break;
+
+                    case 8:
+
+                        TextToSpeech(pagedata[8]);
+
+                        break;
+
+                    case 9:
+
+                        TextToSpeech(pagedata[9]);
+
+                        break;
+
+                    default:
+
+                        break;
+                }
             }
         }
+
         private async void TextToSpeech(string text)
         {
             SpeechSynthesizer synthesizer = new SpeechSynthesizer();
@@ -137,12 +144,21 @@ namespace Gui_FinalProject
 
         private void PlayButton_Click(object sender, RoutedEventArgs e)
         {
-            media.Play();
+            if (pressedplay == false)
+            {
+                TextToSpeech(pagedata[adultflipview.SelectedIndex]);
+                pressedplay = true;
+            }
+            else
+            {
+                media.Play();
+            }
         }
 
         private void PauseButton_Click(object sender, RoutedEventArgs e)
         {
             media.Pause();
+            pressedplay = false;
         }
 
         private void VolumeSlider_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)

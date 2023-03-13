@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dDev2cJ3mpjwZkCukh2QslTWZtW7nJ2yTPEgqJXKIulj4GoLcNoYZjf2EYuDQPkoDni5f3lehUSeYtJwlaL0qw==",
+  "dgSpecHash": "bifQ2BhpJMT3dHUiu4UBkTirGaa9j7WQpLvFDOt6YpmfLVgb+esQbFcz8SqusyhK0Gcs3UBMgCWZoFw8grvNxQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kyle Gillette\\Source\\Repos\\GUI_FinalProject\\Gui_FinalProject\\Gui_FinalProject\\Gui_FinalProject.csproj",
+  "projectFilePath": "C:\\Users\\Kyle Gillette\\source\\repos\\GUI_FinalProject\\Gui_FinalProject\\Gui_FinalProject\\Gui_FinalProject.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.12-rel-31116-00\\microsoft.net.native.compiler.2.2.12-rel-31116-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.14\\microsoft.net.uwpcoreruntimesdk.2.2.14.nupkg.sha512",

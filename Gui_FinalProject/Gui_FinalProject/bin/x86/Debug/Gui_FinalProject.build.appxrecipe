@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>8cfc273a-c324-48cc-ba94-3a7890665568</PackageIdentityName>
     <PackageIdentityPublisher>CN=Kyle Gillette</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\Gui_FinalProject.exe">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\Gui_FinalProject.exe">
       <PackagePath>entrypoint\Gui_FinalProject.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
@@ -34,139 +34,139 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\DMVManual.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\DMVManual.jpg">
       <PackagePath>Assets\DMVManual.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\eigthpage.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\eigthpage.jpg">
       <PackagePath>Assets\eigthpage.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\eigthpage_adultbook.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\eigthpage_adultbook.jpg">
       <PackagePath>Assets\eigthpage_adultbook.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\fifthpage.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\fifthpage.jpg">
       <PackagePath>Assets\fifthpage.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\fifthpage_adultbook.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\fifthpage_adultbook.jpg">
       <PackagePath>Assets\fifthpage_adultbook.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\firstpage.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\firstpage.jpg">
       <PackagePath>Assets\firstpage.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\firstpage_adultbook - Copy.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\firstpage_adultbook - Copy.jpg">
       <PackagePath>Assets\firstpage_adultbook - Copy.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\forwardbutton.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\forwardbutton.jpg">
       <PackagePath>Assets\forwardbutton.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\fourthpage.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\fourthpage.jpg">
       <PackagePath>Assets\fourthpage.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\fourthpage_adultbook.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\fourthpage_adultbook.jpg">
       <PackagePath>Assets\fourthpage_adultbook.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\homebutton.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\homebutton.jpg">
       <PackagePath>Assets\homebutton.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\KidIcon.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\KidIcon.jpg">
       <PackagePath>Assets\KidIcon.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\ninthpage.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\ninthpage.jpg">
       <PackagePath>Assets\ninthpage.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\ninthpage_adultbook.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\ninthpage_adultbook.jpg">
       <PackagePath>Assets\ninthpage_adultbook.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\pausebutton.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\pausebutton.jpg">
       <PackagePath>Assets\pausebutton.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\playbutton.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\playbutton.jpg">
       <PackagePath>Assets\playbutton.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\prevbutton.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\prevbutton.jpg">
       <PackagePath>Assets\prevbutton.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\secondpage.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\secondpage.jpg">
       <PackagePath>Assets\secondpage.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\secondpage_adultbook.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\secondpage_adultbook.jpg">
       <PackagePath>Assets\secondpage_adultbook.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\seventhpage.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\seventhpage.jpg">
       <PackagePath>Assets\seventhpage.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\seventhpage_adultbook.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\seventhpage_adultbook.jpg">
       <PackagePath>Assets\seventhpage_adultbook.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\sixthpage.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\sixthpage.jpg">
       <PackagePath>Assets\sixthpage.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\tenthpage.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\tenthpage.jpg">
       <PackagePath>Assets\tenthpage.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\tenthpage_adultbook.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\tenthpage_adultbook.jpg">
       <PackagePath>Assets\tenthpage_adultbook.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\thirdpage.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\thirdpage.jpg">
       <PackagePath>Assets\thirdpage.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\thirdpage_adultbook.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\thirdpage_adultbook.jpg">
       <PackagePath>Assets\thirdpage_adultbook.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\ThreeLittlePigs.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\ThreeLittlePigs.jpg">
       <PackagePath>Assets\ThreeLittlePigs.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\Gui_FinalProject.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\Gui_FinalProject.xr.xml">
       <PackagePath>Gui_FinalProject.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\AdultBook.xbf">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\AdultBook.xbf">
       <PackagePath>AdultBook.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\KidBook.xbf">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\KidBook.xbf">
       <PackagePath>KidBook.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\Core\Gui_FinalProject.exe">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\source\repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\Core\Gui_FinalProject.exe">
       <PackagePath>Gui_FinalProject.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

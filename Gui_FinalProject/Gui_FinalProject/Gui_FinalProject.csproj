@@ -143,11 +143,16 @@
     <Content Include="Assets\fifthpage_adultbook.jpg" />
     <Content Include="Assets\firstpage.jpg" />
     <Content Include="Assets\firstpage_adultbook - Copy.jpg" />
+    <Content Include="Assets\forwardbutton.jpg" />
     <Content Include="Assets\fourthpage.jpg" />
     <Content Include="Assets\fourthpage_adultbook.jpg" />
+    <Content Include="Assets\homebutton.jpg" />
     <Content Include="Assets\KidIcon.jpg" />
     <Content Include="Assets\ninthpage.jpg" />
     <Content Include="Assets\ninthpage_adultbook.jpg" />
+    <Content Include="Assets\pausebutton.jpg" />
+    <Content Include="Assets\playbutton.jpg" />
+    <Content Include="Assets\prevbutton.jpg" />
     <Content Include="Assets\secondpage.jpg" />
     <Content Include="Assets\secondpage_adultbook.jpg" />
     <Content Include="Assets\seventhpage.jpg" />

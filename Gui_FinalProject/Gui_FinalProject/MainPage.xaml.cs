@@ -37,7 +37,7 @@ namespace Gui_FinalProject
             this.Frame.Navigate(typeof(AdultBook));
         }
 
-        private async void ProjectInfoAppBarButton_Click(object sender, RoutedEventArgs e)
+        private async void ProjectInfoButton_Click(object sender, RoutedEventArgs e)
         {
             ContentDialog aboutDialog = new ContentDialog()
             {

@@ -11,20 +11,16 @@
 
     <Canvas>
 
-        <CommandBar Foreground="White" Background="Black" HorizontalAlignment="Left" VerticalAlignment="Center">
+        <Button x:ConnectionId='2' Width="180" Height="60" Background="Black" Foreground="White" Content="Project Information"                                >
 
-            <AppBarButton x:ConnectionId='4' Foreground="White" Content="Project Information"                                      >
-
-            </AppBarButton>
-
-        </CommandBar>
+        </Button>
 
         <TextBlock Canvas.Left="675" Canvas.Top="140" Text="Library" FontSize="50"/>
 
         <ScrollViewer HorizontalScrollBarVisibility="Auto" Canvas.Left="350" Canvas.Top="250" Height="500" Width="800">
             <StackPanel Orientation="Horizontal">
 
-                <Button x:ConnectionId='2' Width="480" Height="500" Margin="0,0,10,0" Background="Black"                                    >
+                <Button x:ConnectionId='3' Width="480" Height="500" Margin="0,0,10,0" Background="Black"                                    >
                     <Grid>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="500"/>
@@ -39,7 +35,7 @@
 
                 </Button>
 
-                <Button x:ConnectionId='3' Width="400" Height="500" Margin="0,0,10,0" Background="Black"                        >
+                <Button x:ConnectionId='4' Width="400" Height="500" Margin="0,0,10,0" Background="Black"                        >
                     <Grid>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="500"/>

@@ -13,17 +13,33 @@
 
         <MediaElement x:Name="media" Volume="0.50"/>
 
-        <Slider Value="50" Canvas.Left="250" Canvas.Top="605" x:Name="volumeSlider" Header="Volume" Width="200"
+        <Slider Value="50" Canvas.Left="610" Canvas.Top="700" x:Name="volumeSlider" Header="Volume" Width="200"
         ValueChanged="VolumeSlider_ValueChanged"/>
 
-        <Slider Value="100" Canvas.Left="488" Canvas.Top="605" Header="Audio Speed" Foreground="Black" ValueChanged="AudioSpeedSlider_ValueChanged">
+        <Slider Value="100" Canvas.Left="850" Canvas.Top="700" Header="Audio Speed" Foreground="Black" ValueChanged="AudioSpeedSlider_ValueChanged">
         </Slider>
 
-        <Button Content="Play" Canvas.Left="737" Canvas.Top="627" Background="Black" Click="PlayButton_Click" VerticalAlignment="Top"/>
-        <Button Content="Pause" Canvas.Left="622" Canvas.Top="627" Background="Black" Click="PauseButton_Click" VerticalAlignment="Top"/>
-        <Button Content="Home" Canvas.Left="830" Canvas.Top="627" Background="Black" Click="HomeButton_Click" VerticalAlignment="Top" />
+        <Button Width="120" Height="100" Canvas.Left="240" Canvas.Top="680" Background="White" Click="PauseButton_Click" VerticalAlignment="Top">
+            <Image Source="Assets/pausebutton.jpg"/>
+        </Button>
 
-        <FlipView Width="1535" Height="600" SelectionChanged="FlipView_SelectionChanged" >
+        <Button Width="120" Height="100" Canvas.Left="120" Canvas.Top="680" Background="White" Click="PlayButton_Click" VerticalAlignment="Top">
+            <Image Source="Assets/playbutton.jpg" Stretch="Uniform"/>
+        </Button>
+
+        <Button Width="120" Height="100" Canvas.Top="680" Background="White" Click="HomeButton_Click" VerticalAlignment="Top">
+            <Image Source="Assets/homebutton.jpg" Stretch="Uniform"/>
+        </Button>
+
+        <Button x:Name="previousbutton" Width="120" Height="100" Canvas.Left="360" Canvas.Top="680" Background="White" VerticalAlignment="Top" Click="PreviousButton_Click">
+            <Image Source="Assets/prevbutton.jpg" Stretch="Uniform"/>
+        </Button>
+
+        <Button x:Name="forwardbutton" Width="120" Height="100" Canvas.Left="480" Canvas.Top="680" Background="White" VerticalAlignment="Top" Click="ForwardButton_Click">
+            <Image Source="Assets/forwardbutton.jpg" Height="105" Width="110" Stretch="Fill" Margin="-5,-52,-5,-53"/>
+        </Button>
+
+        <FlipView x:Name="adultflipview" Width="1535" Height="680" SelectionChanged="FlipView_SelectionChanged" >
 
             <ScrollViewer>
                 <Image Source="Assets\firstpage_adultbook - Copy.jpg"/>

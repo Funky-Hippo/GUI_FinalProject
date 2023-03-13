@@ -55,11 +55,17 @@
     <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\firstpage_adultbook - Copy.jpg">
       <PackagePath>Assets\firstpage_adultbook - Copy.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\forwardbutton.jpg">
+      <PackagePath>Assets\forwardbutton.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\fourthpage.jpg">
       <PackagePath>Assets\fourthpage.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\fourthpage_adultbook.jpg">
       <PackagePath>Assets\fourthpage_adultbook.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\homebutton.jpg">
+      <PackagePath>Assets\homebutton.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\KidIcon.jpg">
       <PackagePath>Assets\KidIcon.jpg</PackagePath>
@@ -69,6 +75,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\ninthpage_adultbook.jpg">
       <PackagePath>Assets\ninthpage_adultbook.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\pausebutton.jpg">
+      <PackagePath>Assets\pausebutton.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\playbutton.jpg">
+      <PackagePath>Assets\playbutton.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\prevbutton.jpg">
+      <PackagePath>Assets\prevbutton.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kyle Gillette\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\secondpage.jpg">
       <PackagePath>Assets\secondpage.jpg</PackagePath>

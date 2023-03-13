@@ -11,13 +11,9 @@
 
     <Canvas>
 
-        <CommandBar Foreground="White" Background="Black" HorizontalAlignment="Left" VerticalAlignment="Center">
+        <Button Width="180" Height="60" Background="Black" Foreground="White" Content="Project Information" Click="ProjectInfoButton_Click">
 
-            <AppBarButton Foreground="White" Content="Project Information" Click="ProjectInfoAppBarButton_Click">
-
-            </AppBarButton>
-
-        </CommandBar>
+        </Button>
 
         <TextBlock Canvas.Left="675" Canvas.Top="140" Text="Library" FontSize="50"/>
 

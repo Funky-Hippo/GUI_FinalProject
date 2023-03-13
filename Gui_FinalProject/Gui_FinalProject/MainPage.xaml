@@ -6,7 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="Gray"
+    Background="White"
     NavigationCacheMode="Enabled">
 
     <Canvas>
@@ -15,7 +15,7 @@
 
         </Button>
 
-        <TextBlock Canvas.Left="675" Canvas.Top="140" Text="Library" FontSize="50"/>
+        <TextBlock Canvas.Left="675" Canvas.Top="140" Text="Library" FontSize="50" Foreground="Black"/>
 
         <ScrollViewer HorizontalScrollBarVisibility="Auto" Canvas.Left="350" Canvas.Top="250" Height="500" Width="800">
             <StackPanel Orientation="Horizontal">

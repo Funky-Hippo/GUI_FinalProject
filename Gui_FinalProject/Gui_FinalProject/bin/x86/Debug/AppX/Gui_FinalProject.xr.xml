@@ -62,19 +62,11 @@
       <RootEvent Name="ValueChanged" />
     </RootType>
     <RootType FullName="Gui_FinalProject.AdultBook" />
-    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
-      <RootProperty Name="Header" />
-      <RootProperty Name="Foreground" />
-      <RootProperty Name="Items" />
-      <RootEvent Name="SelectionChanged" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ComboBoxItem">
-      <RootProperty Name="Content" />
-    </RootType>
     <RootType FullName="Gui_FinalProject.KidBook" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Text" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="Foreground" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Orientation" />

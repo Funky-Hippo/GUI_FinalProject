@@ -6,30 +6,11 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="Gray">
+    Background="White">
 
     <Canvas>
 
-        <ComboBox x:ConnectionId='2' Canvas.Left="1430" Canvas.Top="20" Header="Volume" Foreground="Black"                                                   >
-            <ComboBoxItem Content="Mute"/>
-            <ComboBoxItem Content="25%"/>
-            <ComboBoxItem Content="50%"/>
-            <ComboBoxItem Content="75%"/>
-            <ComboBoxItem Content="100%"/>
-        </ComboBox>
-
-        <ComboBox x:ConnectionId='3' Canvas.Left="1430" Canvas.Top="100" Header="Audio Speed" Foreground="Black"                                                        >
-            <ComboBoxItem Content="25%"/>
-            <ComboBoxItem Content="50%"/>
-            <ComboBoxItem Content="75%"/>
-            <ComboBoxItem Content="100%"/>
-        </ComboBox>
-
-        <Button x:ConnectionId='4' Content="Play" Canvas.Left="1430" Canvas.Top="180" Foreground="White" Background="Black"                         />
-        <Button x:ConnectionId='5' Content="Pause" Canvas.Left="1430" Canvas.Top="240" Foreground="White" Background="Black"                          />
-        
-
-        <FlipView x:ConnectionId='6' Width="1400" Height="950" Canvas.Top="-80"                                             >
+        <FlipView x:ConnectionId='2' x:Name="kidflipviewer" Width="1535" Height="680"                                             >
             <Image Source="Assets/firstpage.jpg"/>
             <Image Source="Assets/secondpage.jpg"/>
             <Image Source="Assets/thirdpage.jpg"/>
@@ -41,10 +22,48 @@
             <Image Source="Assets/ninthpage.jpg"/>
             <Image Source="Assets/tenthpage.jpg"/>
         </FlipView>
+        
+        <MediaElement x:ConnectionId='3' x:Name="media"/>
 
 
 
-        <MediaElement x:ConnectionId='7' x:Name="media"/>
+        <Button x:ConnectionId='4' Width="120" Height="100" Canvas.Left="240" Canvas.Top="680" Background="White"                           VerticalAlignment="Top">
+            <Image Source="Assets/pausebutton.jpg"/>
+        </Button>
+
+        <Button x:ConnectionId='5' Width="120" Height="100" Canvas.Left="120" Canvas.Top="680" Background="White"                          VerticalAlignment="Top">
+            <Image Source="Assets/playbutton.jpg" Stretch="Uniform"/>
+        </Button>
+
+        <Button x:ConnectionId='6' Width="120" Height="100" Canvas.Top="680" Background="White"                          VerticalAlignment="Top">
+            <Image Source="Assets/homebutton.jpg" Stretch="Uniform"/>
+        </Button>
+
+        <Button x:ConnectionId='7' x:Name="previousbutton" Width="120" Height="100" Canvas.Left="360" Canvas.Top="680" Background="White" VerticalAlignment="Top"                             >
+            <Image Source="Assets/prevbutton.jpg" Stretch="Uniform"/>
+        </Button>
+
+        <Button x:ConnectionId='8' x:Name="forwardbutton" Width="120" Height="100" Canvas.Left="480" Canvas.Top="680" Background="White" VerticalAlignment="Top"                            >
+            <Image Source="Assets/forwardbutton.jpg" Height="105" Width="110" Stretch="Fill" Margin="-5,-52,-5,-53"/>
+        </Button>
+
+        <RelativePanel Background="Black" Canvas.Left="610" Canvas.Top="700">
+
+
+            <Slider x:ConnectionId='9' Background="Black" 
+                Foreground="White" Value="50" 
+                x:Name="volumeSlider" 
+                Header="Volume" 
+                Width="200"
+                                                        
+             
+            />
+
+
+            <Slider x:ConnectionId='10' Background="Black" RelativePanel.RightOf="volumeSlider" Margin="10,0,0,0" Value="100" Canvas.Left="850" Canvas.Top="700" Header="Audio Speed" Foreground="White"                                             >
+            </Slider>
+
+        </RelativePanel>
 
     </Canvas>
 </Page>

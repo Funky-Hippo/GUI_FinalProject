@@ -135,8 +135,6 @@ namespace Gui_FinalProject
                     break;
             }
 
-
-
         }
 
         private async void TextToSpeech(string text)
@@ -160,93 +158,60 @@ namespace Gui_FinalProject
             media.Pause(); 
         }
 
-        private void VolumeComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void HomeButton_Click(object sender, RoutedEventArgs e)
         {
-            var combobox = ((ComboBox)sender);
-
-
-            switch (combobox.SelectedIndex)
+            if (this.Frame.CanGoBack)
             {
-                case 0:
-
-                    media.Volume = 0;
-
-                    break;
-
-                case 1:
-
-                    media.Volume = 0.25;
-
-                    break;
-
-                case 2:
-
-                    media.Volume = 0.5;
-
-                    break;
-
-                case 3:
-
-                    media.Volume = 0.75;
-
-                    break;
-
-                case 4:
-
-                    media.Volume = 1;
-
-                    break;
-
-                default:
-
-                    break;
+                this.Frame.GoBack();
             }
         }
 
-        private void VolumeSpeedComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void previousbutton_Click(object sender, RoutedEventArgs e)
         {
-            float quarter_volume = 0.25F;
-            float half_volume = 0.5F;
-            float threequarters_volume = 0.75F; 
-            float full_volume = 1;
+            Button btn = sender as Button;
 
-            var combobox = ((ComboBox)sender);
-
-            switch (combobox.SelectedIndex)
+            if (btn.Equals(previousbutton))
             {
-                case 0:
+                var temp = kidflipviewer.SelectedIndex;
 
-                    media.DefaultPlaybackRate = quarter_volume;
-                    media.PlaybackRate = quarter_volume;
+                if (--temp > -1)
+                {
+                    kidflipviewer.SelectedIndex--;
+                }
+            }
+        }
 
+        private void forwardbutton_Click(object sender, RoutedEventArgs e)
+        {
+            Button btn = sender as Button;
 
-                    break;
+            if (btn.Equals(forwardbutton))
+            {
+                var temp = kidflipviewer.SelectedIndex;
 
-                case 1:
+                if (++temp < 10)
+                {
+                    kidflipviewer.SelectedIndex++;
+                }
+            }
+        }
 
-                    media.DefaultPlaybackRate = half_volume;
-                    media.PlaybackRate = half_volume;
+        private void volumeSlider_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
+        {
+            Slider slider = sender as Slider;
+            if (slider != null)
+            {
+                media.Volume = slider.Value / 100;
+            }
+        }
 
-                    break;
-
-                case 2:
-
-                    media.DefaultPlaybackRate = threequarters_volume;
-                    media.PlaybackRate = threequarters_volume;
-
-
-                    break;
-
-                case 3:
-
-                    media.DefaultPlaybackRate = full_volume;
-                    media.PlaybackRate = full_volume;
-
-                    break;
-
-                default:
-
-                    break;
+        private void audiospeedSlider_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
+        {
+            Slider slider = sender as Slider;
+            if (slider != null)
+            {
+                media.PlaybackRate = slider.Value / 100;
+                media.DefaultPlaybackRate = slider.Value / 100;
             }
         }
     }

@@ -6,18 +6,32 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="Gray">
+    Background="White">
 
 
     <Canvas>
 
         <MediaElement x:Name="media" Volume="0.50"/>
 
-        <Slider Value="50" Canvas.Left="610" Canvas.Top="700" x:Name="volumeSlider" Header="Volume" Width="200"
-        ValueChanged="VolumeSlider_ValueChanged"/>
+        <RelativePanel Background="Black" Canvas.Left="610" Canvas.Top="700">
 
-        <Slider Value="100" Canvas.Left="850" Canvas.Top="700" Header="Audio Speed" Foreground="Black" ValueChanged="AudioSpeedSlider_ValueChanged">
-        </Slider>
+
+            <Slider Background="Black" 
+                Foreground="White" Value="50" 
+                x:Name="volumeSlider" 
+                Header="Volume" 
+                Width="200"
+                ValueChanged="VolumeSlider_ValueChanged"
+             
+            />
+
+
+            <Slider Background="Black" RelativePanel.RightOf="volumeSlider" Margin="10,0,0,0" Value="100" Canvas.Left="850" Canvas.Top="700" Header="Audio Speed" Foreground="White" ValueChanged="AudioSpeedSlider_ValueChanged">
+            </Slider>
+
+        </RelativePanel>
+
+
 
         <Button Width="120" Height="100" Canvas.Left="240" Canvas.Top="680" Background="White" Click="PauseButton_Click" VerticalAlignment="Top">
             <Image Source="Assets/pausebutton.jpg"/>

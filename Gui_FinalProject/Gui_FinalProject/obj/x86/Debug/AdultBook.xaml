@@ -6,40 +6,54 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="Gray">
+    Background="White">
 
 
     <Canvas>
 
         <MediaElement x:ConnectionId='2' x:Name="media" Volume="0.50"/>
 
-        <Slider x:ConnectionId='3' Value="50" Canvas.Left="610" Canvas.Top="700" x:Name="volumeSlider" Header="Volume" Width="200"
-                                                />
+        <RelativePanel Background="Black" Canvas.Left="610" Canvas.Top="700">
 
-        <Slider x:ConnectionId='4' Value="100" Canvas.Left="850" Canvas.Top="700" Header="Audio Speed" Foreground="Black"                                             >
-        </Slider>
 
-        <Button x:ConnectionId='5' Width="120" Height="100" Canvas.Left="240" Canvas.Top="680" Background="White"                           VerticalAlignment="Top">
+            <Slider x:ConnectionId='9' Background="Black" 
+                Foreground="White" Value="50" 
+                x:Name="volumeSlider" 
+                Header="Volume" 
+                Width="200"
+                                                        
+             
+            />
+
+
+            <Slider x:ConnectionId='10' Background="Black" RelativePanel.RightOf="volumeSlider" Margin="10,0,0,0" Value="100" Canvas.Left="850" Canvas.Top="700" Header="Audio Speed" Foreground="White"                                             >
+            </Slider>
+
+        </RelativePanel>
+
+
+
+        <Button x:ConnectionId='3' Width="120" Height="100" Canvas.Left="240" Canvas.Top="680" Background="White"                           VerticalAlignment="Top">
             <Image Source="Assets/pausebutton.jpg"/>
         </Button>
 
-        <Button x:ConnectionId='6' Width="120" Height="100" Canvas.Left="120" Canvas.Top="680" Background="White"                          VerticalAlignment="Top">
+        <Button x:ConnectionId='4' Width="120" Height="100" Canvas.Left="120" Canvas.Top="680" Background="White"                          VerticalAlignment="Top">
             <Image Source="Assets/playbutton.jpg" Stretch="Uniform"/>
         </Button>
 
-        <Button x:ConnectionId='7' Width="120" Height="100" Canvas.Top="680" Background="White"                          VerticalAlignment="Top">
+        <Button x:ConnectionId='5' Width="120" Height="100" Canvas.Top="680" Background="White"                          VerticalAlignment="Top">
             <Image Source="Assets/homebutton.jpg" Stretch="Uniform"/>
         </Button>
 
-        <Button x:ConnectionId='8' x:Name="previousbutton" Width="120" Height="100" Canvas.Left="360" Canvas.Top="680" Background="White" VerticalAlignment="Top"                             >
+        <Button x:ConnectionId='6' x:Name="previousbutton" Width="120" Height="100" Canvas.Left="360" Canvas.Top="680" Background="White" VerticalAlignment="Top"                             >
             <Image Source="Assets/prevbutton.jpg" Stretch="Uniform"/>
         </Button>
 
-        <Button x:ConnectionId='9' x:Name="forwardbutton" Width="120" Height="100" Canvas.Left="480" Canvas.Top="680" Background="White" VerticalAlignment="Top"                            >
+        <Button x:ConnectionId='7' x:Name="forwardbutton" Width="120" Height="100" Canvas.Left="480" Canvas.Top="680" Background="White" VerticalAlignment="Top"                            >
             <Image Source="Assets/forwardbutton.jpg" Height="105" Width="110" Stretch="Fill" Margin="-5,-52,-5,-53"/>
         </Button>
 
-        <FlipView x:ConnectionId='10' x:Name="adultflipview" Width="1535" Height="680"                                              >
+        <FlipView x:ConnectionId='8' x:Name="adultflipview" Width="1535" Height="680"                                              >
 
             <ScrollViewer>
                 <Image Source="Assets\firstpage_adultbook - Copy.jpg"/>

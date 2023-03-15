@@ -55,42 +55,15 @@
 
         <FlipView x:ConnectionId='8' x:Name="adultflipview" Width="1535" Height="680"                                              >
 
-            <ScrollViewer>
-                <Image Source="Assets\firstpage_adultbook - Copy.jpg"/>
-            </ScrollViewer>
-
-            <ScrollViewer>
-                <Image Source="Assets\secondpage_adultbook.jpg"/>
-            </ScrollViewer>
-
-            <ScrollViewer>
-                <Image Source="Assets\thirdpage_adultbook.jpg"/>
-            </ScrollViewer>
-
-            <ScrollViewer>
-                <Image Source="Assets\fourthpage_adultbook.jpg"/>
-            </ScrollViewer>
-
-            <ScrollViewer>
-                <Image Source="Assets\fifthpage_adultbook.jpg"/>
-            </ScrollViewer>
-
-            <ScrollViewer>
-                <Image Source="Assets\seventhpage_adultbook.jpg"/>
-            </ScrollViewer>
-
-            <ScrollViewer>
-                <Image Source="Assets\eigthpage_adultbook.jpg"/>
-            </ScrollViewer>
-
-            <ScrollViewer>
-                <Image Source="Assets\ninthpage_adultbook.jpg"/>
-            </ScrollViewer>
-
-            <ScrollViewer>
-                <Image Source="Assets\tenthpage_adultbook.jpg"/>
-            </ScrollViewer>
-
+            <Image Source="Assets\firstpage_adultbook - Copy.jpg" Stretch="Uniform"/>
+            <Image Source="Assets\secondpage_adultbook.jpg" Stretch="Uniform"/>
+            <Image Source="Assets\thirdpage_adultbook.jpg" Stretch="Uniform"/>
+            <Image Source="Assets\fourthpage_adultbook.jpg" Stretch="Uniform"/>
+            <Image Source="Assets\fifthpage_adultbook.jpg" Stretch="Uniform"/>
+            <Image Source="Assets\seventhpage_adultbook.jpg" Stretch="Uniform"/>
+            <Image Source="Assets\eigthpage_adultbook.jpg" Stretch="Uniform"/>
+            <Image Source="Assets\ninthpage_adultbook.jpg" Stretch="Uniform"/>
+            <Image Source="Assets\tenthpage_adultbook.jpg" Stretch="Uniform"/>
         </FlipView>
 
     </Canvas>

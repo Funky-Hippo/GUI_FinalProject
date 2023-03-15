@@ -10255,18 +10255,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kyle Gillette\\.nuget\\packages\\": {},
+    "C:\\Users\\Brendon Williams\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kyle Gillette\\source\\repos\\GUI_FinalProject\\Gui_FinalProject\\Gui_FinalProject\\Gui_FinalProject.csproj",
+      "projectUniqueName": "C:\\Users\\Brendon Williams\\Source\\Repos\\GUI_FinalProject\\Gui_FinalProject\\Gui_FinalProject\\Gui_FinalProject.csproj",
       "projectName": "Gui_FinalProject",
-      "projectPath": "C:\\Users\\Kyle Gillette\\source\\repos\\GUI_FinalProject\\Gui_FinalProject\\Gui_FinalProject\\Gui_FinalProject.csproj",
-      "packagesPath": "C:\\Users\\Kyle Gillette\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kyle Gillette\\source\\repos\\GUI_FinalProject\\Gui_FinalProject\\Gui_FinalProject\\obj\\",
+      "projectPath": "C:\\Users\\Brendon Williams\\Source\\Repos\\GUI_FinalProject\\Gui_FinalProject\\Gui_FinalProject\\Gui_FinalProject.csproj",
+      "packagesPath": "C:\\Users\\Brendon Williams\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Brendon Williams\\Source\\Repos\\GUI_FinalProject\\Gui_FinalProject\\Gui_FinalProject\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -10274,7 +10274,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Kyle Gillette\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Brendon Williams\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

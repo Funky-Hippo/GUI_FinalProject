@@ -16,7 +16,7 @@
         <RelativePanel Background="Black" Canvas.Left="610" Canvas.Top="700">
 
 
-            <Slider x:ConnectionId='9' Background="Black" 
+            <Slider x:ConnectionId='9' Background="DarkGray" 
                 Foreground="White" Value="50" 
                 x:Name="volumeSlider" 
                 Header="Volume" 
@@ -26,32 +26,33 @@
             />
 
 
-            <Slider x:ConnectionId='10' Background="Black" RelativePanel.RightOf="volumeSlider" Margin="10,0,0,0" Value="100" Canvas.Left="850" Canvas.Top="700" Header="Audio Speed" Foreground="White"                                             >
+            <Slider x:ConnectionId='10' Background="DarkGray" RelativePanel.RightOf="volumeSlider" Margin="10,0,0,0" Value="100" Canvas.Left="850" Canvas.Top="700" Header="Audio Speed" Foreground="White"                                             >
             </Slider>
 
         </RelativePanel>
 
 
 
-        <Button x:ConnectionId='3' Width="120" Height="100" Canvas.Left="240" Canvas.Top="680" Background="White"                           VerticalAlignment="Top">
-            <Image Source="Assets/pausebutton.jpg"/>
+        <Button x:ConnectionId='3' Width="120" Height="120" Canvas.Left="240" Canvas.Top="660" Background="White"                           VerticalAlignment="Top">
+            <Image Source="Assets/PauseButton.png"/>
         </Button>
 
-        <Button x:ConnectionId='4' Width="120" Height="100" Canvas.Left="120" Canvas.Top="680" Background="White"                          VerticalAlignment="Top">
-            <Image Source="Assets/playbutton.jpg" Stretch="Uniform"/>
+        <Button x:ConnectionId='4' Width="120" Height="120" Canvas.Left="120" Canvas.Top="660" Background="White"                          VerticalAlignment="Top">
+            <Image Source="Assets/PlayButton.png" Stretch="Uniform"/>
         </Button>
 
-        <Button x:ConnectionId='5' Width="120" Height="100" Canvas.Top="680" Background="White"                          VerticalAlignment="Top">
-            <Image Source="Assets/homebutton.jpg" Stretch="Uniform"/>
+        <Button x:ConnectionId='5' Width="120" Height="120" Canvas.Top="660" Background="White"                          VerticalAlignment="Top">
+            <Image Source="Assets/HomeButton.png" Stretch="Uniform"/>
         </Button>
 
-        <Button x:ConnectionId='6' x:Name="previousbutton" Width="120" Height="100" Canvas.Left="360" Canvas.Top="680" Background="White" VerticalAlignment="Top"                             >
-            <Image Source="Assets/prevbutton.jpg" Stretch="Uniform"/>
+        <Button x:ConnectionId='6' x:Name="previousbutton" Width="120" Height="120" Canvas.Left="360" Canvas.Top="660" Background="White" VerticalAlignment="Top"                             >
+            <Image Source="Assets/PrevButton.png" Stretch="Uniform"/>
         </Button>
 
-        <Button x:ConnectionId='7' x:Name="forwardbutton" Width="120" Height="100" Canvas.Left="480" Canvas.Top="680" Background="White" VerticalAlignment="Top"                            >
-            <Image Source="Assets/forwardbutton.jpg" Height="105" Width="110" Stretch="Fill" Margin="-5,-52,-5,-53"/>
+        <Button x:ConnectionId='7' x:Name="forwardbutton" Width="120" Height="120" Canvas.Left="480" Canvas.Top="660" Background="White" VerticalAlignment="Top"                            >
+            <Image Source="Assets/NextButton.png" Stretch="Uniform"/>
         </Button>
+
 
         <FlipView x:ConnectionId='8' x:Name="adultflipview" Width="1535" Height="680"                                              >
 

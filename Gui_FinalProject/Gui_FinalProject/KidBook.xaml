@@ -27,30 +27,30 @@
 
 
 
-        <Button Width="120" Height="100" Canvas.Left="240" Canvas.Top="680" Background="White" Click="PauseButton_Click" VerticalAlignment="Top">
-            <Image Source="Assets/pausebutton.jpg"/>
+        <Button Width="120" Height="120" Canvas.Left="240" Canvas.Top="660" Background="White" Click="PauseButton_Click" VerticalAlignment="Top">
+            <Image Source="Assets/PauseButton.png"/>
         </Button>
 
-        <Button Width="120" Height="100" Canvas.Left="120" Canvas.Top="680" Background="White" Click="PlayButton_Click" VerticalAlignment="Top">
-            <Image Source="Assets/playbutton.jpg" Stretch="Uniform"/>
+        <Button Width="120" Height="120" Canvas.Left="120" Canvas.Top="660" Background="White" Click="PlayButton_Click" VerticalAlignment="Top">
+            <Image Source="Assets/PlayButton.png" Stretch="Uniform"/>
         </Button>
 
-        <Button Width="120" Height="100" Canvas.Top="680" Background="White" Click="HomeButton_Click" VerticalAlignment="Top">
-            <Image Source="Assets/homebutton.jpg" Stretch="Uniform"/>
+        <Button Width="120" Height="120" Canvas.Top="660" Background="White" Click="HomeButton_Click" VerticalAlignment="Top">
+            <Image Source="Assets/HomeButton.png" Stretch="Uniform"/>
         </Button>
 
-        <Button x:Name="previousbutton" Width="120" Height="100" Canvas.Left="360" Canvas.Top="680" Background="White" VerticalAlignment="Top" Click="previousbutton_Click">
-            <Image Source="Assets/prevbutton.jpg" Stretch="Uniform"/>
+        <Button x:Name="previousbutton" Width="120" Height="120" Canvas.Left="360" Canvas.Top="660" Background="White" VerticalAlignment="Top" Click="previousbutton_Click">
+            <Image Source="Assets/PrevButton.png" Stretch="Uniform"/>
         </Button>
 
-        <Button x:Name="forwardbutton" Width="120" Height="100" Canvas.Left="480" Canvas.Top="680" Background="White" VerticalAlignment="Top" Click="forwardbutton_Click">
-            <Image Source="Assets/forwardbutton.jpg" Height="105" Width="110" Stretch="Fill" Margin="-5,-52,-5,-53"/>
+        <Button x:Name="forwardbutton" Width="120" Height="120" Canvas.Left="480" Canvas.Top="660" Background="White" VerticalAlignment="Top" Click="forwardbutton_Click">
+            <Image Source="Assets/NextButton.png" Stretch="Uniform"/>
         </Button>
 
         <RelativePanel Background="Black" Canvas.Left="610" Canvas.Top="700">
 
 
-            <Slider Background="Black" 
+            <Slider Background="DarkGray" 
                 Foreground="White" Value="50" 
                 x:Name="volumeSlider" 
                 Header="Volume" 
@@ -60,7 +60,7 @@
             />
 
 
-            <Slider Background="Black" RelativePanel.RightOf="volumeSlider" Margin="10,0,0,0" Value="100" Canvas.Left="850" Canvas.Top="700" Header="Audio Speed" Foreground="White" ValueChanged="audiospeedSlider_ValueChanged">
+            <Slider Background="DarkGray" RelativePanel.RightOf="volumeSlider" Margin="10,0,0,0" Value="100" Canvas.Left="850" Canvas.Top="700" Header="Audio Speed" Foreground="White" ValueChanged="audiospeedSlider_ValueChanged">
             </Slider>
 
         </RelativePanel>

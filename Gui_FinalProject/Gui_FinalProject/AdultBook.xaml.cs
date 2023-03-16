@@ -188,7 +188,7 @@ namespace Gui_FinalProject
             }
         }
 
-        private void ForwardButton_Click(object sender, RoutedEventArgs e)
+        private void forwardbutton_Click(object sender, RoutedEventArgs e)
         {
             Button btn = sender as Button;
 
@@ -203,7 +203,7 @@ namespace Gui_FinalProject
             }
         }
 
-        private void PreviousButton_Click(object sender, RoutedEventArgs e)
+        private void previousbutton_Click(object sender, RoutedEventArgs e)
         {
             Button btn = sender as Button;
 

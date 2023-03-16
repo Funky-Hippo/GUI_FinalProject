@@ -1,1 +1,1 @@
-C:\Users\Brendon Williams\Source\Repos\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Gui_FinalProject.csproj;x86
+C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Gui_FinalProject.csproj;x86

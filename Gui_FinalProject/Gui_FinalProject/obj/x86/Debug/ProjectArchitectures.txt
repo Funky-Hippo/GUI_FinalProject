@@ -1,1 +1,1 @@
-C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Gui_FinalProject.csproj;x86
+C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Gui_FinalProject.csproj;x86

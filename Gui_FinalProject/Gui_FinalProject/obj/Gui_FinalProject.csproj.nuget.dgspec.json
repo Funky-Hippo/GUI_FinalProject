@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CaseF\\Source\\Repos\\Funky-Hippo\\GUI_FinalProject\\Gui_FinalProject\\Gui_FinalProject\\Gui_FinalProject.csproj": {}
+    "C:\\Users\\Kyle Gillette\\Desktop\\GUI_Final\\Gui_FinalProject\\Gui_FinalProject\\Gui_FinalProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CaseF\\Source\\Repos\\Funky-Hippo\\GUI_FinalProject\\Gui_FinalProject\\Gui_FinalProject\\Gui_FinalProject.csproj": {
+    "C:\\Users\\Kyle Gillette\\Desktop\\GUI_Final\\Gui_FinalProject\\Gui_FinalProject\\Gui_FinalProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CaseF\\Source\\Repos\\Funky-Hippo\\GUI_FinalProject\\Gui_FinalProject\\Gui_FinalProject\\Gui_FinalProject.csproj",
+        "projectUniqueName": "C:\\Users\\Kyle Gillette\\Desktop\\GUI_Final\\Gui_FinalProject\\Gui_FinalProject\\Gui_FinalProject.csproj",
         "projectName": "Gui_FinalProject",
-        "projectPath": "C:\\Users\\CaseF\\Source\\Repos\\Funky-Hippo\\GUI_FinalProject\\Gui_FinalProject\\Gui_FinalProject\\Gui_FinalProject.csproj",
-        "packagesPath": "C:\\Users\\CaseF\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CaseF\\Source\\Repos\\Funky-Hippo\\GUI_FinalProject\\Gui_FinalProject\\Gui_FinalProject\\obj\\",
+        "projectPath": "C:\\Users\\Kyle Gillette\\Desktop\\GUI_Final\\Gui_FinalProject\\Gui_FinalProject\\Gui_FinalProject.csproj",
+        "packagesPath": "C:\\Users\\Kyle Gillette\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kyle Gillette\\Desktop\\GUI_Final\\Gui_FinalProject\\Gui_FinalProject\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\CaseF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kyle Gillette\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

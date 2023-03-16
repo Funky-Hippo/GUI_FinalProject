@@ -175,8 +175,8 @@ namespace Gui_FinalProject
             Slider slider = sender as Slider;
             if (slider != null)
             {
-                media.PlaybackRate = slider.Value / 100;
-                media.DefaultPlaybackRate = slider.Value / 100;
+                media.PlaybackRate = slider.Value / 200;
+                media.DefaultPlaybackRate = slider.Value / 200;
             }
         }
 

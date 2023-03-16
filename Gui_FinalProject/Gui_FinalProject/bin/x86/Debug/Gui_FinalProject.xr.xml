@@ -49,7 +49,11 @@
       <RootProperty Name="Value" />
       <RootProperty Name="Header" />
       <RootProperty Name="Width" />
+      <RootProperty Name="Minimum" />
+      <RootProperty Name="Maximum" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="FontSize" />
       <RootEvent Name="ValueChanged" />
     </RootType>
     <RootType FullName="Gui_FinalProject.AdultBook" />

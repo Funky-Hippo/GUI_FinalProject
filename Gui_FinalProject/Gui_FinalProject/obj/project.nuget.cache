@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XvU/MsT+BKBEkoAuW1nsDXgVzeT/cccuyyK6CYfFSJTJANtdI4z2jds4vbX7tgE6IdyPDd34kih2NVmlnK/rYA==",
+  "dgSpecHash": "cUcmJOz5Ubc0pW4Cj8otsUqpqtey6F/Rq6CM67q9sOrfF+H0IXNIhTVOnVP7xWcIn6varIkYCe8vP2BKZiKZfw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\CaseF\\Source\\Repos\\Funky-Hippo\\GUI_FinalProject\\Gui_FinalProject\\Gui_FinalProject\\Gui_FinalProject.csproj",
+  "projectFilePath": "C:\\Users\\Kyle Gillette\\Desktop\\GUI_Final\\Gui_FinalProject\\Gui_FinalProject\\Gui_FinalProject.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.12-rel-31116-00\\microsoft.net.native.compiler.2.2.12-rel-31116-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.14\\microsoft.net.uwpcoreruntimesdk.2.2.14.nupkg.sha512",

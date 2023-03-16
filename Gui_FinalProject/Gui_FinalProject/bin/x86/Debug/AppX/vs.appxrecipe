@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>LAPTOP-OKR85FQN</Machine>
-    <WindowsUser>CaseF</WindowsUser>
+    <Machine>KGS-LAPTOP</Machine>
+    <WindowsUser>Kyle Gillette</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>8cfc273a-c324-48cc-ba94-3a7890665568</PackageIdentityName>
     <PackageIdentityPublisher>CN=Kyle Gillette</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>D2E5C6A3D4E52FDA7B410E8A21FD56394E1065EEB96B25C58612A35D9BF89E06</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>E28D91E1CA78067D85E5CD84C26926779FF59604531799AFAD9FA39DC44C5681</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>8cfc273a-c324-48cc-ba94-3a7890665568_1.0.0.0_x86__ybzyz07xr68we</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>8cfc273a-c324-48cc-ba94-3a7890665568_ybzyz07xr68we!App</RegisteredUserModeAppID>
     <RegisteredPackageID>8cfc273a-c324-48cc-ba94-3a7890665568</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-16T21:31:34.866</Modified>
+      <Modified>2023-03-16T23:28:39.110</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\Gui_FinalProject.exe">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\Gui_FinalProject.exe">
       <PackagePath>entrypoint\Gui_FinalProject.exe</PackagePath>
-      <Modified>2023-03-16T21:31:33.541</Modified>
+      <Modified>2023-03-16T23:28:38.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -44,205 +44,205 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2020-12-02T12:52:00.000</Modified>
+      <Modified>2020-12-02T11:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\DMVManual.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\DMVManual.jpg">
       <PackagePath>Assets\DMVManual.jpg</PackagePath>
-      <Modified>2023-03-15T02:45:17.921</Modified>
+      <Modified>2023-03-16T22:13:39.700</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\eigthpage.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\eigthpage.jpg">
       <PackagePath>Assets\eigthpage.jpg</PackagePath>
-      <Modified>2023-03-15T02:45:17.927</Modified>
+      <Modified>2023-03-16T22:13:39.712</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\eigthpage_adultbook.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\eigthpage_adultbook.jpg">
       <PackagePath>Assets\eigthpage_adultbook.jpg</PackagePath>
-      <Modified>2023-03-15T02:45:17.927</Modified>
+      <Modified>2023-03-16T22:13:39.713</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\fifthpage.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\fifthpage.jpg">
       <PackagePath>Assets\fifthpage.jpg</PackagePath>
-      <Modified>2023-03-15T02:45:17.928</Modified>
+      <Modified>2023-03-16T22:13:39.715</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\fifthpage_adultbook.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\fifthpage_adultbook.jpg">
       <PackagePath>Assets\fifthpage_adultbook.jpg</PackagePath>
-      <Modified>2023-03-15T02:45:17.929</Modified>
+      <Modified>2023-03-16T22:13:39.716</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\firstpage.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\firstpage.jpg">
       <PackagePath>Assets\firstpage.jpg</PackagePath>
-      <Modified>2023-03-15T02:45:17.931</Modified>
+      <Modified>2023-03-16T22:13:39.717</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\firstpage_adultbook - Copy.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\firstpage_adultbook - Copy.jpg">
       <PackagePath>Assets\firstpage_adultbook - Copy.jpg</PackagePath>
-      <Modified>2023-03-15T02:45:17.931</Modified>
+      <Modified>2023-03-16T22:13:39.718</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\forwardbutton.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\forwardbutton.jpg">
       <PackagePath>Assets\forwardbutton.jpg</PackagePath>
-      <Modified>2023-03-15T02:45:17.931</Modified>
+      <Modified>2023-03-16T22:13:39.719</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\fourthpage.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\fourthpage.jpg">
       <PackagePath>Assets\fourthpage.jpg</PackagePath>
-      <Modified>2023-03-15T02:45:17.932</Modified>
+      <Modified>2023-03-16T22:13:39.720</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\fourthpage_adultbook.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\fourthpage_adultbook.jpg">
       <PackagePath>Assets\fourthpage_adultbook.jpg</PackagePath>
-      <Modified>2023-03-15T02:45:17.933</Modified>
+      <Modified>2023-03-16T22:13:39.721</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\homebutton.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\homebutton.jpg">
       <PackagePath>Assets\homebutton.jpg</PackagePath>
-      <Modified>2023-03-15T02:45:17.934</Modified>
+      <Modified>2023-03-16T22:13:39.722</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\KidIcon.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\KidIcon.jpg">
       <PackagePath>Assets\KidIcon.jpg</PackagePath>
-      <Modified>2023-03-15T02:45:17.922</Modified>
+      <Modified>2023-03-16T22:13:39.701</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\ninthpage.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\ninthpage.jpg">
       <PackagePath>Assets\ninthpage.jpg</PackagePath>
-      <Modified>2023-03-15T02:45:17.935</Modified>
+      <Modified>2023-03-16T22:13:39.723</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\ninthpage_adultbook.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\ninthpage_adultbook.jpg">
       <PackagePath>Assets\ninthpage_adultbook.jpg</PackagePath>
-      <Modified>2023-03-15T02:45:17.935</Modified>
+      <Modified>2023-03-16T22:13:39.724</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\pausebutton.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\pausebutton.jpg">
       <PackagePath>Assets\pausebutton.jpg</PackagePath>
-      <Modified>2023-03-15T02:45:17.936</Modified>
+      <Modified>2023-03-16T22:13:39.725</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\playbutton.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\playbutton.jpg">
       <PackagePath>Assets\playbutton.jpg</PackagePath>
-      <Modified>2023-03-15T02:45:17.936</Modified>
+      <Modified>2023-03-16T22:13:39.725</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\prevbutton.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\prevbutton.jpg">
       <PackagePath>Assets\prevbutton.jpg</PackagePath>
-      <Modified>2023-03-15T02:45:17.937</Modified>
+      <Modified>2023-03-16T22:13:39.726</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\secondpage.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\secondpage.jpg">
       <PackagePath>Assets\secondpage.jpg</PackagePath>
-      <Modified>2023-03-15T02:45:17.937</Modified>
+      <Modified>2023-03-16T22:13:39.727</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\secondpage_adultbook.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\secondpage_adultbook.jpg">
       <PackagePath>Assets\secondpage_adultbook.jpg</PackagePath>
-      <Modified>2023-03-15T02:45:17.938</Modified>
+      <Modified>2023-03-16T22:13:39.728</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\seventhpage.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\seventhpage.jpg">
       <PackagePath>Assets\seventhpage.jpg</PackagePath>
-      <Modified>2023-03-15T02:45:17.939</Modified>
+      <Modified>2023-03-16T22:13:39.729</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\seventhpage_adultbook.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\seventhpage_adultbook.jpg">
       <PackagePath>Assets\seventhpage_adultbook.jpg</PackagePath>
-      <Modified>2023-03-15T02:45:17.941</Modified>
+      <Modified>2023-03-16T22:13:39.730</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\sixthpage.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\sixthpage.jpg">
       <PackagePath>Assets\sixthpage.jpg</PackagePath>
-      <Modified>2023-03-15T02:45:17.942</Modified>
+      <Modified>2023-03-16T22:13:39.732</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\tenthpage.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\tenthpage.jpg">
       <PackagePath>Assets\tenthpage.jpg</PackagePath>
-      <Modified>2023-03-15T02:45:17.943</Modified>
+      <Modified>2023-03-16T22:13:39.733</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\tenthpage_adultbook.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\tenthpage_adultbook.jpg">
       <PackagePath>Assets\tenthpage_adultbook.jpg</PackagePath>
-      <Modified>2023-03-15T02:45:17.943</Modified>
+      <Modified>2023-03-16T22:13:39.733</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\thirdpage.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\thirdpage.jpg">
       <PackagePath>Assets\thirdpage.jpg</PackagePath>
-      <Modified>2023-03-15T02:45:17.944</Modified>
+      <Modified>2023-03-16T22:13:39.735</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\thirdpage_adultbook.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\thirdpage_adultbook.jpg">
       <PackagePath>Assets\thirdpage_adultbook.jpg</PackagePath>
-      <Modified>2023-03-15T02:45:17.944</Modified>
+      <Modified>2023-03-16T22:13:39.736</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\ThreeLittlePigs.jpg">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\ThreeLittlePigs.jpg">
       <PackagePath>Assets\ThreeLittlePigs.jpg</PackagePath>
-      <Modified>2023-03-15T02:45:17.925</Modified>
+      <Modified>2023-03-16T22:13:39.709</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\HomeButton.png">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\HomeButton.png">
       <PackagePath>Assets\HomeButton.png</PackagePath>
-      <Modified>2023-03-16T05:28:59.674</Modified>
+      <Modified>2023-03-16T22:13:39.700</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\NextButton.png">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\NextButton.png">
       <PackagePath>Assets\NextButton.png</PackagePath>
-      <Modified>2023-03-16T05:28:59.690</Modified>
+      <Modified>2023-03-16T22:13:39.702</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\PauseButton.png">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\PauseButton.png">
       <PackagePath>Assets\PauseButton.png</PackagePath>
-      <Modified>2023-03-16T05:28:59.693</Modified>
+      <Modified>2023-03-16T22:13:39.703</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\PlayButton.png">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\PlayButton.png">
       <PackagePath>Assets\PlayButton.png</PackagePath>
-      <Modified>2023-03-16T05:28:59.697</Modified>
+      <Modified>2023-03-16T22:13:39.704</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\PrevButton.png">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\PrevButton.png">
       <PackagePath>Assets\PrevButton.png</PackagePath>
-      <Modified>2023-03-16T05:28:59.699</Modified>
+      <Modified>2023-03-16T22:13:39.705</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2023-03-15T02:45:17.922</Modified>
+      <Modified>2023-03-16T22:13:39.702</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-15T02:45:17.923</Modified>
+      <Modified>2023-03-16T22:13:39.705</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-15T02:45:17.923</Modified>
+      <Modified>2023-03-16T22:13:39.706</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-15T02:45:17.923</Modified>
+      <Modified>2023-03-16T22:13:39.706</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-15T02:45:17.924</Modified>
+      <Modified>2023-03-16T22:13:39.707</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-15T02:45:17.924</Modified>
+      <Modified>2023-03-16T22:13:39.707</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-15T02:45:17.925</Modified>
+      <Modified>2023-03-16T22:13:39.709</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2023-03-15T02:45:17.947</Modified>
+      <Modified>2023-03-16T22:13:39.741</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\Gui_FinalProject.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\Gui_FinalProject.xr.xml">
       <PackagePath>Gui_FinalProject.xr.xml</PackagePath>
-      <Modified>2023-03-16T05:34:04.048</Modified>
+      <Modified>2023-03-16T23:28:38.099</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-03-16T21:31:33.415</Modified>
+      <Modified>2023-03-16T23:28:38.124</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\AdultBook.xbf">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\AdultBook.xbf">
       <PackagePath>AdultBook.xbf</PackagePath>
-      <Modified>2023-03-16T21:31:33.415</Modified>
+      <Modified>2023-03-16T23:28:38.124</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\KidBook.xbf">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\KidBook.xbf">
       <PackagePath>KidBook.xbf</PackagePath>
-      <Modified>2023-03-16T21:31:33.415</Modified>
+      <Modified>2023-03-16T23:28:38.124</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-03-16T21:31:33.416</Modified>
+      <Modified>2023-03-16T23:28:38.124</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2020-12-02T10:52:06.000</Modified>
+      <Modified>2020-12-02T09:52:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-03-16T05:38:37.790</Modified>
+      <Modified>2023-03-16T22:13:56.076</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\CaseF\Source\Repos\Funky-Hippo\GUI_FinalProject\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\Core\Gui_FinalProject.exe">
+    <AppxPackagedFile Include="C:\Users\Kyle Gillette\Desktop\GUI_Final\Gui_FinalProject\Gui_FinalProject\bin\x86\Debug\Core\Gui_FinalProject.exe">
       <PackagePath>Gui_FinalProject.exe</PackagePath>
-      <Modified>2023-03-16T21:31:34.853</Modified>
+      <Modified>2023-03-16T23:28:39.093</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

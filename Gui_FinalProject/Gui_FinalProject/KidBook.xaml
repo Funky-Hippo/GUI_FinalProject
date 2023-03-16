@@ -51,6 +51,8 @@
 
 
             <Slider Background="DarkGray" 
+                    FontFamily="Comic Sans MS"
+                    FontSize="35"
                 Foreground="White" Value="50" 
                 x:Name="volumeSlider" 
                 Header="Volume" 
@@ -60,7 +62,9 @@
             />
 
 
-            <Slider Background="DarkGray" RelativePanel.RightOf="volumeSlider" Margin="10,0,0,0" Value="100" Canvas.Left="850" Canvas.Top="700" Header="Audio Speed" Foreground="White" ValueChanged="audiospeedSlider_ValueChanged">
+            <Slider Background="DarkGray" RelativePanel.RightOf="volumeSlider" Margin="10,0,0,0" Value="100" Canvas.Left="850" Canvas.Top="700" Header="Audio Speed" Foreground="White" ValueChanged="audiospeedSlider_ValueChanged" Minimum="0" Maximum="200" 
+                    FontFamily="Comic Sans MS"
+                    FontSize="35">
             </Slider>
 
         </RelativePanel>
